@@ -78,7 +78,7 @@ function store() {
 }
 
 function replace() {
-	if (getIndex(Math.floor(current) == -1)) {
+	if (getIndex(Math.floor(current)) == -1) {
 		error(pname + "_Pattr: Current preset index doesn't exist.\n");
 		return;
 	}
@@ -102,7 +102,7 @@ function insert_after() {
 }
 
 function lock() {
-	if (getIndex(Math.floor(current) == -1)) {
+	if (getIndex(Math.floor(current)) == -1) {
 		error(pname + "_Pattr: Current preset index doesn't exist.\n");
 		return;
 	}
@@ -111,7 +111,7 @@ function lock() {
 }
 
 function rename() {
-	if (getIndex(Math.floor(current) == -1)) {
+	if (getIndex(Math.floor(current)) == -1) {
 		error(pname + "_Pattr: Current preset index doesn't exist.\n");
 		return;
 	}

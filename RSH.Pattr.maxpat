@@ -979,7 +979,7 @@
 					"fontsize" : 9.0,
 					"hint" : "",
 					"id" : "obj-36",
-					"items" : [ "(#1_Pattr)", ",", "<separator>", ",", "activewritemode", 0, ",", "autopattr_vis", 0, ",", "autorestore", 1, ",", "autowatch", 0, ",", "backupmode", 0, ",", "changemode", 0, ",", "dirty", 0, ",", "flat", 0, ",", "greedy", 0, ",", "name", "Main", ",", "notifymode", 0, ",", "outputmode", 0, ",", "savemode", 3, ",", "subscribemode", 0, ",", "(File:Main.json)" ],
+					"items" : [ "(#1_Pattr)", ",", "<separator>", ",", "activewritemode", ",", "autopattr_vis", ",", "autorestore", ",", "autowatch", ",", "backupmode", ",", "changemode", ",", "dirty", ",", "flat", ",", "greedy", ",", "name", ",", "notifymode", ",", "outputmode", ",", "savemode", ",", "<separator>", ",", "(File:)" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1292,10 +1292,10 @@
 				"box" : 				{
 					"allowdrag" : 0,
 					"arrow" : 0,
-					"bgcolor" : [ 0.25098, 0.25098, 0.25098, 0.501961 ],
+					"bgcolor" : [ 0, 0.25, 0, 0.5 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0,
-					"bgfillcolor_color" : [ 0.25098, 0.25098, 0.25098, 0.501961 ],
+					"bgfillcolor_color" : [ 0, 0.25, 0, 0.5 ],
 					"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
 					"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 					"bgfillcolor_proportion" : 0.39,
@@ -2340,37 +2340,37 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "RSH.Pattr.UI.js",
-				"bootpath" : "E:/Documents/CNSMD/MaxMSP/Library/Max.Patcher/dist",
+				"bootpath" : "E:/Documents/CNSMD/Piece/Rebirth 2014 (mixte,percu,voix)/_Patch/patch_dist/lib",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "getWindowSize.js",
-				"bootpath" : "E:/Documents/CNSMD/MaxMSP/Library/Max.Patcher/dist",
+				"bootpath" : "E:/Documents/CNSMD/Piece/Rebirth 2014 (mixte,percu,voix)/_Patch/patch_dist/lib",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RSH.Pattr.js",
-				"bootpath" : "E:/Documents/CNSMD/MaxMSP/Library/Max.Patcher/dist",
+				"bootpath" : "E:/Documents/CNSMD/Piece/Rebirth 2014 (mixte,percu,voix)/_Patch/patch_dist/lib",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RSH.MIDI.Learn.Cell.maxpat",
-				"bootpath" : "E:/Documents/CNSMD/MaxMSP/Library/Max.Patcher/dist",
+				"bootpath" : "E:/Documents/CNSMD/Piece/Rebirth 2014 (mixte,percu,voix)/_Patch/patch_dist/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RSH.Line.maxpat",
-				"bootpath" : "E:/Documents/CNSMD/MaxMSP/Library/Max.Patcher/dist",
+				"bootpath" : "E:/Documents/CNSMD/Piece/Rebirth 2014 (mixte,percu,voix)/_Patch/patch_dist/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RSH.Line.js",
-				"bootpath" : "E:/Documents/CNSMD/MaxMSP/Library/Max.Patcher/dist",
+				"bootpath" : "E:/Documents/CNSMD/Piece/Rebirth 2014 (mixte,percu,voix)/_Patch/patch_dist/lib",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

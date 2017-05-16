@@ -56,12 +56,12 @@
 					"fontsize" : 11.0,
 					"id" : "obj-16",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 375.0, 105.0, 58.0, 22.0 ],
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 375.0, 105.0, 63.0, 22.0 ],
 					"style" : "",
-					"text" : "route #3"
+					"text" : "route #3 _"
 				}
 
 			}
@@ -71,12 +71,12 @@
 					"fontsize" : 11.0,
 					"id" : "obj-17",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 375.0, 75.0, 58.0, 22.0 ],
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 375.0, 75.0, 63.0, 22.0 ],
 					"style" : "",
-					"text" : "route #2"
+					"text" : "route #2 _"
 				}
 
 			}
@@ -198,12 +198,12 @@
 					"fontsize" : 11.0,
 					"id" : "obj-8",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 225.0, 105.0, 58.0, 22.0 ],
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 225.0, 105.0, 63.0, 22.0 ],
 					"style" : "",
-					"text" : "route #3"
+					"text" : "route #3 _"
 				}
 
 			}
@@ -213,12 +213,12 @@
 					"fontsize" : 11.0,
 					"id" : "obj-6",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 225.0, 75.0, 58.0, 22.0 ],
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 225.0, 75.0, 63.0, 22.0 ],
 					"style" : "",
-					"text" : "route #2"
+					"text" : "route #2 _"
 				}
 
 			}
@@ -318,7 +318,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u322003441"
+					"varname" : "u699004343"
 				}
 
 			}
@@ -429,7 +429,25 @@
 					"destination" : [ "obj-21", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"source" : [ "obj-16", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-17", 1 ]
 				}
 
 			}
@@ -519,6 +537,15 @@
 					"destination" : [ "obj-8", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"source" : [ "obj-6", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -538,6 +565,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-8", 1 ]
 				}
 
 			}
@@ -566,13 +602,13 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "RSH.Line.maxpat",
-				"bootpath" : "E:/Documents/CNSMD/Piece/170527_Mengneng/patch_dist",
+				"bootpath" : "E:/Documents/CNSMD/Piece/Rebirth 2014 (mixte,percu,voix)/_Patch/patch_dist/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RSH.Line.js",
-				"bootpath" : "E:/Documents/CNSMD/Piece/170527_Mengneng/patch_dist",
+				"bootpath" : "E:/Documents/CNSMD/Piece/Rebirth 2014 (mixte,percu,voix)/_Patch/patch_dist/lib",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
