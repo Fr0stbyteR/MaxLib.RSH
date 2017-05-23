@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 180.0, 283.0, 1200.0, 715.0 ],
+		"rect" : [ 158.0, 283.0, 677.0, 715.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 11.0,
@@ -425,7 +425,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"bgoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgoncolor" : [ 1.0, 1.0, 0.0, 0.74902 ],
 					"fontsize" : 10.0,
 					"hint" : "MIDI Learn",
 					"id" : "obj-105",
@@ -2340,37 +2340,37 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "RSH.Pattr.UI.js",
-				"bootpath" : "E:/Documents/CNSMD/Piece/Rebirth 2014 (mixte,percu,voix)/_Patch/patch_dist/lib",
+				"bootpath" : "E:/Documents/CNSMD/MaxMSP/Library/Max.Patcher/dist",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "getWindowSize.js",
-				"bootpath" : "E:/Documents/CNSMD/Piece/Rebirth 2014 (mixte,percu,voix)/_Patch/patch_dist/lib",
+				"bootpath" : "E:/Documents/CNSMD/MaxMSP/Library/Max.Patcher/dist",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RSH.Pattr.js",
-				"bootpath" : "E:/Documents/CNSMD/Piece/Rebirth 2014 (mixte,percu,voix)/_Patch/patch_dist/lib",
+				"bootpath" : "E:/Documents/CNSMD/MaxMSP/Library/Max.Patcher/dist",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RSH.MIDI.Learn.Cell.maxpat",
-				"bootpath" : "E:/Documents/CNSMD/Piece/Rebirth 2014 (mixte,percu,voix)/_Patch/patch_dist/lib",
+				"bootpath" : "E:/Documents/CNSMD/MaxMSP/Library/Max.Patcher/dist",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RSH.Line.maxpat",
-				"bootpath" : "E:/Documents/CNSMD/Piece/Rebirth 2014 (mixte,percu,voix)/_Patch/patch_dist/lib",
+				"bootpath" : "E:/Documents/CNSMD/MaxMSP/Library/Max.Patcher/dist",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RSH.Line.js",
-				"bootpath" : "E:/Documents/CNSMD/Piece/Rebirth 2014 (mixte,percu,voix)/_Patch/patch_dist/lib",
+				"bootpath" : "E:/Documents/CNSMD/MaxMSP/Library/Max.Patcher/dist",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

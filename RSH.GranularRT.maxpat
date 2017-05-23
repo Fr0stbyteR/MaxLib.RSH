@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 469.0, 171.0, 968.0, 713.0 ],
+		"rect" : [ 10.0, 117.0, 968.0, 713.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 11.0,
@@ -37,6 +37,19 @@
 		"style" : "",
 		"subpatcher_template" : "default",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-74",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 1635.0, 315.0, 38.0, 22.0 ],
+					"style" : "",
+					"text" : "* 127"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-73",
 					"maxclass" : "message",
@@ -197,7 +210,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"bgoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgoncolor" : [ 1.0, 1.0, 0.0, 0.75 ],
 					"fontsize" : 10.0,
 					"hint" : "MIDI Learn",
 					"id" : "obj-127",
@@ -774,20 +787,20 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 75.0, 495.0, 60.0, 22.0 ],
 					"restore" : 					{
-						"#1_GranularRT_Count" : [ 29.732283 ],
-						"#1_GranularRT_Detune" : [ 5.574803 ],
-						"#1_GranularRT_Freeze" : [ 1 ],
-						"#1_GranularRT_Gain" : [ -37.480316 ],
-						"#1_GranularRT_Pan" : [ 0.464567 ],
-						"#1_GranularRT_PreGain" : [ -37.480316 ],
-						"#1_GranularRT_Size" : [ 2349.606201 ],
-						"#1_GranularRT_Transp" : [ -1.700787 ],
-						"#1_GranularRT_WinSize" : [ 4913.385742 ]
+						"#1_GranularRT_Count" : [ 40.0 ],
+						"#1_GranularRT_Detune" : [ 0.0 ],
+						"#1_GranularRT_Freeze" : [ 0 ],
+						"#1_GranularRT_Gain" : [ 0.0 ],
+						"#1_GranularRT_Pan" : [ 0.5 ],
+						"#1_GranularRT_PreGain" : [ 0.0 ],
+						"#1_GranularRT_Size" : [ 100.0 ],
+						"#1_GranularRT_Transp" : [ 0.0 ],
+						"#1_GranularRT_WinSize" : [ 1000.0 ]
 					}
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u392007032"
+					"varname" : "u003001497"
 				}
 
 			}
@@ -874,7 +887,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"bgoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgoncolor" : [ 1.0, 1.0, 0.0, 0.75 ],
 					"fontsize" : 10.0,
 					"hint" : "MIDI Learn",
 					"id" : "obj-17",
@@ -1175,7 +1188,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"bgoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgoncolor" : [ 1.0, 1.0, 0.0, 0.75 ],
 					"fontsize" : 10.0,
 					"hint" : "MIDI Learn",
 					"id" : "obj-35",
@@ -1487,10 +1500,11 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"bgoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgoncolor" : [ 1.0, 1.0, 0.0, 0.75 ],
 					"fontsize" : 10.0,
 					"hint" : "MIDI Learn",
 					"id" : "obj-98",
+					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1504,7 +1518,8 @@
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"usebgoncolor" : 1
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
 				}
 
 			}
@@ -1740,7 +1755,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"bgoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgoncolor" : [ 1.0, 1.0, 0.0, 0.75 ],
 					"fontsize" : 10.0,
 					"hint" : "MIDI Learn",
 					"id" : "obj-89",
@@ -2027,7 +2042,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"bgoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgoncolor" : [ 1.0, 1.0, 0.0, 0.75 ],
 					"fontsize" : 10.0,
 					"hint" : "MIDI Learn",
 					"id" : "obj-77",
@@ -2314,7 +2329,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"bgoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgoncolor" : [ 1.0, 1.0, 0.0, 0.75 ],
 					"fontsize" : 10.0,
 					"hint" : "MIDI Learn",
 					"id" : "obj-62",
@@ -2822,7 +2837,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"bgoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgoncolor" : [ 1.0, 1.0, 0.0, 0.75 ],
 					"fontsize" : 10.0,
 					"hint" : "MIDI Learn",
 					"id" : "obj-10",
@@ -3288,7 +3303,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"bgoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgoncolor" : [ 1.0, 1.0, 0.0, 0.75 ],
 					"fontsize" : 10.0,
 					"hint" : "MIDI Learn",
 					"id" : "obj-46",
@@ -3611,6 +3626,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-60", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-103", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-74", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-103", 0 ]
@@ -4484,6 +4508,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-48", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-42", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -4809,6 +4842,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-48", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-74", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-63", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -5070,14 +5112,14 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-122" : [ "#1_GranularRT_PreGain", "Gain", 0 ],
+			"obj-36" : [ "Count", "Count", 0 ],
 			"obj-90" : [ "Pan", "Pan", 0 ],
 			"obj-93" : [ "#1_GranularRT_Gain", "Gain", 0 ],
 			"obj-3" : [ "Window Size", "WinSize", 0 ],
-			"obj-78" : [ "Detune", "Detune", 0 ],
-			"obj-37" : [ "Transposition", "Transp", 0 ],
 			"obj-63" : [ "Grain Size", "Size", 0 ],
-			"obj-36" : [ "Count", "Count", 0 ],
-			"obj-122" : [ "#1_GranularRT_PreGain", "Gain", 0 ]
+			"obj-78" : [ "Detune", "Detune", 0 ],
+			"obj-37" : [ "Transposition", "Transp", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{

@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 45.0, 336.0, 1781.0, 533.0 ],
+		"rect" : [ -403.0, 196.0, 1781.0, 533.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 11.0,
@@ -353,7 +353,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"bgoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgoncolor" : [ 1.0, 1.0, 0.0, 0.75 ],
 					"fontsize" : 10.0,
 					"hint" : "MIDI Learn",
 					"id" : "obj-112",
@@ -599,7 +599,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"bgoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgoncolor" : [ 1.0, 1.0, 0.0, 0.75 ],
 					"fontsize" : 10.0,
 					"hint" : "MIDI Learn",
 					"id" : "obj-120",
@@ -901,7 +901,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"bgoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgoncolor" : [ 1.0, 1.0, 0.0, 0.75 ],
 					"fontsize" : 10.0,
 					"hint" : "MIDI Learn",
 					"id" : "obj-74",
@@ -1147,7 +1147,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"bgoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgoncolor" : [ 1.0, 1.0, 0.0, 0.75 ],
 					"fontsize" : 10.0,
 					"hint" : "MIDI Learn",
 					"id" : "obj-82",
@@ -1620,7 +1620,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"bgoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgoncolor" : [ 1.0, 1.0, 0.0, 0.75 ],
 					"fontsize" : 10.0,
 					"hint" : "MIDI Learn",
 					"id" : "obj-99",
@@ -1994,7 +1994,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u253009522"
+					"varname" : "u777002403"
 				}
 
 			}
@@ -2053,7 +2053,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"bgoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgoncolor" : [ 1.0, 1.0, 0.0, 0.75 ],
 					"fontsize" : 10.0,
 					"hint" : "MIDI Learn",
 					"id" : "obj-40",
@@ -2299,7 +2299,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"bgoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgoncolor" : [ 1.0, 1.0, 0.0, 0.75 ],
 					"fontsize" : 10.0,
 					"hint" : "MIDI Learn",
 					"id" : "obj-17",
@@ -2781,7 +2781,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"bgoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgoncolor" : [ 1.0, 1.0, 0.0, 0.75 ],
 					"fontsize" : 10.0,
 					"hint" : "MIDI Learn",
 					"id" : "obj-46",
@@ -4152,14 +4152,14 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-29" : [ "P2", "P2", 0 ],
-			"obj-93" : [ "#1_Pan_Gain", "Gain", 0 ],
-			"obj-75" : [ "P8", "P8", 0 ],
-			"obj-3" : [ "P1", "P1", 0 ],
-			"obj-100" : [ "P6", "P6", 0 ],
-			"obj-113" : [ "P5", "P5", 0 ],
 			"obj-41" : [ "P3", "P3", 0 ],
+			"obj-113" : [ "P5", "P5", 0 ],
 			"obj-121" : [ "P4", "P4", 0 ],
+			"obj-3" : [ "P1", "P1", 0 ],
+			"obj-29" : [ "P2", "P2", 0 ],
+			"obj-100" : [ "P6", "P6", 0 ],
+			"obj-75" : [ "P8", "P8", 0 ],
+			"obj-93" : [ "#1_Pan_Gain", "Gain", 0 ],
 			"obj-83" : [ "P7", "P7", 0 ]
 		}
 ,

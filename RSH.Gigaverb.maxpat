@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 562.0, 206.0, 1309.0, 606.0 ],
+		"rect" : [ -4.0, 79.0, 1309.0, 606.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 11.0,
@@ -105,7 +105,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"bgoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgoncolor" : [ 1.0, 1.0, 0.0, 0.75 ],
 					"fontsize" : 10.0,
 					"hint" : "MIDI Learn",
 					"id" : "obj-129",
@@ -545,21 +545,21 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 75.0, 525.0, 60.0, 22.0 ],
 					"restore" : 					{
-						"#1_Gigaverb_Bandwidth" : [ 0.0 ],
-						"#1_Gigaverb_Damping" : [ 0.0 ],
-						"#1_Gigaverb_Dry" : [ 0.0 ],
-						"#1_Gigaverb_Early" : [ 0.0 ],
-						"#1_Gigaverb_Gain" : [ -70.0 ],
-						"#1_Gigaverb_PreGain" : [ -70.0 ],
-						"#1_Gigaverb_RevTime" : [ 0.1 ],
-						"#1_Gigaverb_RoomSize" : [ 0.1 ],
-						"#1_Gigaverb_Spread" : [ 0.0 ],
-						"#1_Gigaverb_Tail" : [ 0.0 ]
+						"#1_Gigaverb_Bandwidth" : [ 0.5 ],
+						"#1_Gigaverb_Damping" : [ 0.7 ],
+						"#1_Gigaverb_Dry" : [ 1.0 ],
+						"#1_Gigaverb_Early" : [ 0.25 ],
+						"#1_Gigaverb_Gain" : [ 0.0 ],
+						"#1_Gigaverb_PreGain" : [ 0.0 ],
+						"#1_Gigaverb_RevTime" : [ 11.0 ],
+						"#1_Gigaverb_RoomSize" : [ 75.0 ],
+						"#1_Gigaverb_Spread" : [ 23.0 ],
+						"#1_Gigaverb_Tail" : [ 0.25 ]
 					}
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u893006023"
+					"varname" : "u531002690"
 				}
 
 			}
@@ -662,7 +662,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"bgoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgoncolor" : [ 1.0, 1.0, 0.0, 0.75 ],
 					"fontsize" : 10.0,
 					"hint" : "MIDI Learn",
 					"id" : "obj-94",
@@ -1034,7 +1034,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"bgoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgoncolor" : [ 1.0, 1.0, 0.0, 0.75 ],
 					"fontsize" : 10.0,
 					"hint" : "MIDI Learn",
 					"id" : "obj-74",
@@ -1279,7 +1279,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"bgoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgoncolor" : [ 1.0, 1.0, 0.0, 0.75 ],
 					"fontsize" : 10.0,
 					"hint" : "MIDI Learn",
 					"id" : "obj-61",
@@ -1524,7 +1524,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"bgoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgoncolor" : [ 1.0, 1.0, 0.0, 0.75 ],
 					"fontsize" : 10.0,
 					"hint" : "MIDI Learn",
 					"id" : "obj-53",
@@ -1770,7 +1770,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"bgoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgoncolor" : [ 1.0, 1.0, 0.0, 0.75 ],
 					"fontsize" : 10.0,
 					"hint" : "MIDI Learn",
 					"id" : "obj-43",
@@ -2015,7 +2015,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"bgoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgoncolor" : [ 1.0, 1.0, 0.0, 0.75 ],
 					"fontsize" : 10.0,
 					"hint" : "MIDI Learn",
 					"id" : "obj-35",
@@ -2260,7 +2260,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"bgoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgoncolor" : [ 1.0, 1.0, 0.0, 0.75 ],
 					"fontsize" : 10.0,
 					"hint" : "MIDI Learn",
 					"id" : "obj-24",
@@ -2506,7 +2506,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"bgoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgoncolor" : [ 1.0, 1.0, 0.0, 0.75 ],
 					"fontsize" : 10.0,
 					"hint" : "MIDI Learn",
 					"id" : "obj-6",
@@ -2912,7 +2912,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"bgoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgoncolor" : [ 1.0, 1.0, 0.0, 0.75 ],
 					"fontsize" : 10.0,
 					"hint" : "MIDI Learn",
 					"id" : "obj-46",
@@ -4244,16 +4244,16 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-62" : [ "Early", "Early", 0 ],
 			"obj-54" : [ "Dry", "Dry", 0 ],
-			"obj-8" : [ "ReverbTime", "RevTime", 0 ],
 			"obj-44" : [ "Damping", "Damping", 0 ],
+			"obj-3" : [ "RoomSize", "Size", 0 ],
+			"obj-36" : [ "Bandwidth", "Bdwidth", 0 ],
+			"obj-27" : [ "Spread", "Spread", 0 ],
 			"obj-93" : [ "#1_Gigaverb_Gain", "Gain", 0 ],
 			"obj-124" : [ "#1_Gigaverb_PreGain", "Gain", 0 ],
 			"obj-75" : [ "Tail", "Tail", 0 ],
-			"obj-36" : [ "Bandwidth", "Bdwidth", 0 ],
-			"obj-3" : [ "RoomSize", "Size", 0 ],
-			"obj-62" : [ "Early", "Early", 0 ],
-			"obj-27" : [ "Spread", "Spread", 0 ]
+			"obj-8" : [ "ReverbTime", "RevTime", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{

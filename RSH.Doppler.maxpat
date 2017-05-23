@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 323.0, 197.0, 1228.0, 714.0 ],
+		"rect" : [ 0.0, 43.0, 1366.0, 685.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 11.0,
@@ -327,7 +327,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u906004752"
+					"varname" : "u002003157"
 				}
 
 			}
@@ -399,7 +399,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"bgoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgoncolor" : [ 1.0, 1.0, 0.0, 0.75 ],
 					"fontsize" : 10.0,
 					"hint" : "MIDI Learn",
 					"id" : "obj-2",
@@ -840,7 +840,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"bgoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgoncolor" : [ 1.0, 1.0, 0.0, 0.75 ],
 					"fontsize" : 10.0,
 					"hint" : "MIDI Learn",
 					"id" : "obj-106",
@@ -1255,7 +1255,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"bgoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgoncolor" : [ 1.0, 1.0, 0.0, 0.75 ],
 					"fontsize" : 10.0,
 					"hint" : "MIDI Learn",
 					"id" : "obj-75",
@@ -1673,7 +1673,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"bgoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgoncolor" : [ 1.0, 1.0, 0.0, 0.75 ],
 					"fontsize" : 10.0,
 					"hint" : "MIDI Learn",
 					"id" : "obj-43",
@@ -1934,7 +1934,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"bgoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgoncolor" : [ 1.0, 1.0, 0.0, 0.75 ],
 					"fontsize" : 10.0,
 					"hint" : "MIDI Learn",
 					"id" : "obj-33",
@@ -2195,7 +2195,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"bgoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgoncolor" : [ 1.0, 1.0, 0.0, 0.75 ],
 					"fontsize" : 10.0,
 					"hint" : "MIDI Learn",
 					"id" : "obj-18",
@@ -2536,7 +2536,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"bgoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgoncolor" : [ 1.0, 1.0, 0.0, 0.75 ],
 					"fontsize" : 10.0,
 					"hint" : "MIDI Learn",
 					"id" : "obj-46",
@@ -4077,18 +4077,18 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-103::obj-39" : [ "Outs", "Outs", 0 ],
-			"obj-44" : [ "Perpendicular", "Perp", 0 ],
-			"obj-103::obj-17" : [ "Speed[1]", "Speed", 0 ],
-			"obj-34" : [ "Distance", "Distance", 0 ],
-			"obj-94" : [ "Trigger", "Trigger", 0 ],
-			"obj-100" : [ "#1_Doppler_Gain", "Gain", 0 ],
-			"obj-19" : [ "Speed", "Speed", 0 ],
-			"obj-76" : [ "Noise", "Noise", 0 ],
-			"obj-107" : [ "Spat_Gain", "Spat", 0 ],
-			"obj-3" : [ "Thresh", "Thresh", 0 ],
 			"obj-103::obj-93" : [ "@count_Spat_Gain", "Gain", 0 ],
-			"obj-103::obj-3" : [ "Count", "Count", 0 ]
+			"obj-44" : [ "Perpendicular", "Perp", 0 ],
+			"obj-94" : [ "Trigger", "Trigger", 0 ],
+			"obj-34" : [ "Distance", "Distance", 0 ],
+			"obj-3" : [ "Thresh", "Thresh", 0 ],
+			"obj-103::obj-3" : [ "Count", "Count", 0 ],
+			"obj-19" : [ "Speed", "Speed", 0 ],
+			"obj-100" : [ "#1_Doppler_Gain", "Gain", 0 ],
+			"obj-103::obj-17" : [ "Speed[1]", "Speed", 0 ],
+			"obj-107" : [ "Spat_Gain", "Spat", 0 ],
+			"obj-103::obj-39" : [ "Outs", "Outs", 0 ],
+			"obj-76" : [ "Noise", "Noise", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{

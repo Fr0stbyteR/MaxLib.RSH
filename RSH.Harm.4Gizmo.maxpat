@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 190.0, 180.0, 1235.0, 563.0 ],
+		"rect" : [ 123.0, 180.0, 1235.0, 563.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 11.0,
@@ -160,7 +160,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"bgoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgoncolor" : [ 1.0, 1.0, 0.0, 0.75 ],
 					"fontsize" : 10.0,
 					"hint" : "MIDI Learn",
 					"id" : "obj-81",
@@ -406,7 +406,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"bgoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgoncolor" : [ 1.0, 1.0, 0.0, 0.75 ],
 					"fontsize" : 10.0,
 					"hint" : "MIDI Learn",
 					"id" : "obj-90",
@@ -652,7 +652,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"bgoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgoncolor" : [ 1.0, 1.0, 0.0, 0.75 ],
 					"fontsize" : 10.0,
 					"hint" : "MIDI Learn",
 					"id" : "obj-47",
@@ -1061,16 +1061,16 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 207.0, 495.0, 60.0, 22.0 ],
 					"restore" : 					{
-						"#1_Harm_4Gizmo_Gain" : [ -34.173229 ],
-						"#1_Harm_4Gizmo_H1" : [ 0.566929 ],
-						"#1_Harm_4Gizmo_H2" : [ 0.566929 ],
-						"#1_Harm_4Gizmo_H3" : [ 0.566929 ],
-						"#1_Harm_4Gizmo_H4" : [ 0.566929 ]
+						"#1_Harm_4Gizmo_Gain" : [ 0.0 ],
+						"#1_Harm_4Gizmo_H1" : [ 0.0 ],
+						"#1_Harm_4Gizmo_H2" : [ 0.0 ],
+						"#1_Harm_4Gizmo_H3" : [ 0.0 ],
+						"#1_Harm_4Gizmo_H4" : [ 0.0 ]
 					}
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u370007668"
+					"varname" : "u289002527"
 				}
 
 			}
@@ -1129,7 +1129,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"bgoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgoncolor" : [ 1.0, 1.0, 0.0, 0.75 ],
 					"fontsize" : 10.0,
 					"hint" : "MIDI Learn",
 					"id" : "obj-10",
@@ -1541,7 +1541,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"bgoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgoncolor" : [ 1.0, 1.0, 0.0, 0.75 ],
 					"fontsize" : 10.0,
 					"hint" : "MIDI Learn",
 					"id" : "obj-46",
@@ -2475,11 +2475,11 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-48" : [ "H2", "H2", 0 ],
-			"obj-93" : [ "#1_Harm_4Gizmo_Gain", "Gain", 0 ],
-			"obj-91" : [ "H3", "H3", 0 ],
 			"obj-82" : [ "H4", "H4", 0 ],
-			"obj-3" : [ "H1", "H1", 0 ]
+			"obj-91" : [ "H3", "H3", 0 ],
+			"obj-48" : [ "H2", "H2", 0 ],
+			"obj-3" : [ "H1", "H1", 0 ],
+			"obj-93" : [ "#1_Harm_4Gizmo_Gain", "Gain", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{

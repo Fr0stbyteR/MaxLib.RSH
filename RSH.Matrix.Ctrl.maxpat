@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 264.0, 136.0, 676.0, 585.0 ],
+		"rect" : [ 330.0, 109.0, 676.0, 585.0 ],
 		"bgcolor" : [ 0.163647, 0.174699, 0.17409, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -38,6 +38,61 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ -150.0, 30.0, 165.0, 36.0 ],
+					"style" : "",
+					"text" : "; #1_Matrix.Ctrl.In midilearn $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.243137 ],
+					"bgoncolor" : [ 1.0, 0.0, 0.0, 0.501961 ],
+					"fontsize" : 8.0,
+					"hint" : "MIDI Learn",
+					"id" : "obj-26",
+					"maxclass" : "textbutton",
+					"mode" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ -150.0, 0.0, 15.0, 15.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 15.0, 0.0, 15.0, 15.0 ],
+					"style" : "",
+					"text" : "M",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"texton" : "M",
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textovercolor" : [ 1.0, 1.0, 0.0, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 0.0, 0.25 ],
+					"id" : "obj-123",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ -510.0, 495.0, 131.0, 20.0 ],
+					"style" : "",
+					"text" : "REN Shihong © 2017",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-12",
 					"maxclass" : "message",
@@ -69,6 +124,7 @@
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.243137 ],
 					"bgoncolor" : [ 0.0, 1.0, 0.0, 0.5 ],
 					"fontsize" : 8.0,
+					"hint" : "Set All to 0",
 					"id" : "obj-55",
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
@@ -584,8 +640,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 13.0, 30.0, 17.0 ],
 					"style" : "",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textjustification" : 0
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
 			}
@@ -803,6 +858,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-25", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-26", 0 ]
 				}
 
 			}

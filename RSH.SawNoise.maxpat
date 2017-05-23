@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 473.0, 305.0, 1439.0, 594.0 ],
+		"rect" : [ -81.0, 166.0, 1439.0, 594.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 11.0,
@@ -37,6 +37,19 @@
 		"style" : "",
 		"subpatcher_template" : "default",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "int" ],
+					"patching_rect" : [ 870.0, 420.0, 47.0, 22.0 ],
+					"style" : "",
+					"text" : "t 0 127"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-75",
 					"maxclass" : "message",
@@ -261,18 +274,18 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 45.0, 315.0, 60.0, 22.0 ],
 					"restore" : 					{
-						"#1_SawNoise_ARamp" : [ 518.20282 ],
-						"#1_SawNoise_Distortion" : [ 1.674492 ],
-						"#1_SawNoise_FRamp" : [ 508.711548 ],
-						"#1_SawNoise_Freq" : [ 1017.518005 ],
-						"#1_SawNoise_Gain" : [ -31.417322 ],
-						"#1_SawNoise_MS" : [ 0.191919, 0.424242, 0.050505, 0.313131, 0.919192, 0.181818, 0.565657, 0.484848, 0.010101, 0.919192, 0.363636, 0.363636, 0.212121, 0.333333, 0.717172, 0.131313, 0.939394, 0.909091, 0.808081, 0.939394, 0.666667, 0.767677, 0.292929, 0.252525, 0.363636, 0.676768, 0.212121, 0.838384, 0.292929, 0.040404 ],
+						"#1_SawNoise_ARamp" : [ 10.0 ],
+						"#1_SawNoise_Distortion" : [ 0.5 ],
+						"#1_SawNoise_FRamp" : [ 0.0 ],
+						"#1_SawNoise_Freq" : [ 2000.0 ],
+						"#1_SawNoise_Gain" : [ 0.0 ],
+						"#1_SawNoise_MS" : [ 0.616162, 0.888889, 0.30303, 0.979798, 0.919192, 0.30303, 0.636364, 0.929293, 0.767677, 0.40404, 0.484848, 0.686869, 0.919192, 0.565657, 0.616162, 0.656566, 0.888889, 0.939394, 0.959596, 0.282828, 1.0, 0.252525, 0.777778, 0.474747, 0.959596, 0.333333, 0.323232, 0.252525, 0.111111, 0.454545 ],
 						"#1_SawNoise_Rand" : [ -1 ]
 					}
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u692010128"
+					"varname" : "u761001893"
 				}
 
 			}
@@ -358,7 +371,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"bgoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgoncolor" : [ 1.0, 1.0, 0.0, 0.75 ],
 					"fontsize" : 10.0,
 					"hint" : "MIDI Learn",
 					"id" : "obj-2",
@@ -663,10 +676,11 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"bgoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgoncolor" : [ 1.0, 1.0, 0.0, 0.75 ],
 					"fontsize" : 10.0,
 					"hint" : "MIDI Learn",
 					"id" : "obj-90",
+					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -680,7 +694,8 @@
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"usebgoncolor" : 1
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
 				}
 
 			}
@@ -991,10 +1006,11 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"bgoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgoncolor" : [ 1.0, 1.0, 0.0, 0.75 ],
 					"fontsize" : 10.0,
 					"hint" : "MIDI Learn",
 					"id" : "obj-47",
+					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1008,7 +1024,8 @@
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"usebgoncolor" : 1
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
 				}
 
 			}
@@ -1236,10 +1253,11 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"bgoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgoncolor" : [ 1.0, 1.0, 0.0, 0.75 ],
 					"fontsize" : 10.0,
 					"hint" : "MIDI Learn",
 					"id" : "obj-39",
+					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1253,17 +1271,19 @@
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"usebgoncolor" : 1
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"bgoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgoncolor" : [ 1.0, 1.0, 0.0, 0.75 ],
 					"fontsize" : 10.0,
 					"hint" : "MIDI Learn",
 					"id" : "obj-30",
+					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1277,17 +1297,19 @@
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"usebgoncolor" : 1
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"bgoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgoncolor" : [ 1.0, 1.0, 0.0, 0.75 ],
 					"fontsize" : 10.0,
 					"hint" : "MIDI Learn",
 					"id" : "obj-46",
+					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1301,7 +1323,8 @@
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"usebgoncolor" : 1
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
 				}
 
 			}
@@ -2432,6 +2455,24 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-76", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-4", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-76", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-102", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2756,7 +2797,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-76", 0 ],
+					"destination" : [ "obj-4", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-87", 0 ]
@@ -2855,11 +2896,11 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-3" : [ "Frequency", "Freq", 0 ],
 			"obj-32" : [ "Frequency Ramp Time", "fRamp", 0 ],
-			"obj-17" : [ "Distortion", "Disto", 0 ],
+			"obj-48" : [ "Amplitude Ramp Time", "aRamp", 0 ],
+			"obj-3" : [ "Frequency", "Freq", 0 ],
 			"obj-15" : [ "#1_SawNoise_Gain", "Gain", 0 ],
-			"obj-48" : [ "Amplitude Ramp Time", "aRamp", 0 ]
+			"obj-17" : [ "Distortion", "Disto", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
