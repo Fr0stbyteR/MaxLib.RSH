@@ -41,7 +41,7 @@ function selectBuf(bufname) {
 function selectIndex(indexIn) {
 	index = indexIn;
 	outlet(0, "index", index);
-	outlet(0, "buffer", buffers[index]["name"]);
+	outlet(0, "selbuffer", buffers[index]["name"]);
 }
 
 function replace(file) {

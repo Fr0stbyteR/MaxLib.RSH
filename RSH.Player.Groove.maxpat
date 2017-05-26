@@ -2788,15 +2788,15 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 210.0, 465.0, 60.0, 22.0 ],
 					"restore" : 					{
+						"#1_Player_Groove_Gain" : [ 0.0 ],
 						"#1_Player_Groove_Loop" : [ 0 ],
 						"#1_Player_Groove_Play" : [ 0 ],
-						"#1_Player_Groove_Speed" : [ 1.0 ],
-						"P1_Player_Groove_Gain" : [ 0.0 ]
+						"#1_Player_Groove_Speed" : [ 0.0 ]
 					}
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u695001664"
+					"varname" : "u794004956"
 				}
 
 			}
@@ -3128,7 +3128,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "P1_Player_Groove_Gain",
+							"parameter_longname" : "#1_Player_Groove_Gain",
 							"parameter_shortname" : "Gain",
 							"parameter_type" : 0,
 							"parameter_mmin" : -70.0,
@@ -3143,7 +3143,7 @@
 ,
 					"showname" : 0,
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"varname" : "P1_Player_Groove_Gain"
+					"varname" : "#1_Player_Groove_Gain"
 				}
 
 			}
@@ -3186,7 +3186,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 720.0, 345.0, 45.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 143.0, 120.0, 45.0, 15.0 ],
+					"presentation_rect" : [ 143.0, 120.0, 22.0, 10.0 ],
 					"style" : "",
 					"text" : "",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
@@ -3217,7 +3217,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 720.0, 375.0, 93.0, 22.0 ],
+					"patching_rect" : [ 720.0, 375.0, 131.0, 22.0 ],
 					"style" : "",
 					"text" : "startpoint 0 0. 1"
 				}
@@ -3432,7 +3432,7 @@
 					"presentation_rect" : [ 90.0, 20.0, 45.0, 50.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "Speed[2]",
+							"parameter_longname" : "Speed",
 							"parameter_shortname" : "Speed",
 							"parameter_type" : 0,
 							"parameter_mmin" : -4.0,
@@ -4928,8 +4928,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-93" : [ "P1_Player_Groove_Gain", "Gain", 0 ],
-			"obj-78" : [ "Speed[2]", "Speed", 0 ]
+			"obj-93" : [ "#1_Player_Groove_Gain", "Gain", 0 ],
+			"obj-78" : [ "Speed", "Speed", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
