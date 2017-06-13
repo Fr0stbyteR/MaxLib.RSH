@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 878.0, 319.0, 816.0, 713.0 ],
+		"rect" : [ 99.0, 195.0, 816.0, 713.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 11.0,
@@ -108,7 +108,6 @@
 					"fontsize" : 10.0,
 					"hint" : "MIDI Learn",
 					"id" : "obj-38",
-					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -831,7 +830,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u898011294"
+					"varname" : "u746013789"
 				}
 
 			}
@@ -897,7 +896,6 @@
 					"fontsize" : 10.0,
 					"hint" : "MIDI Learn",
 					"id" : "obj-17",
-					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1150,7 +1148,6 @@
 					"fontsize" : 10.0,
 					"hint" : "MIDI Learn",
 					"id" : "obj-35",
-					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1415,7 +1412,6 @@
 					"fontsize" : 10.0,
 					"hint" : "MIDI Learn",
 					"id" : "obj-89",
-					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1667,7 +1663,6 @@
 					"fontsize" : 10.0,
 					"hint" : "MIDI Learn",
 					"id" : "obj-77",
-					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1919,7 +1914,6 @@
 					"fontsize" : 10.0,
 					"hint" : "MIDI Learn",
 					"id" : "obj-62",
-					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2210,7 +2204,6 @@
 					"fontsize" : 10.0,
 					"hint" : "MIDI Learn",
 					"id" : "obj-10",
-					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2617,7 +2610,6 @@
 					"fontsize" : 10.0,
 					"hint" : "MIDI Learn",
 					"id" : "obj-46",
-					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3771,13 +3763,13 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-78" : [ "Detune", "Detune", 0 ],
-			"obj-63" : [ "Grain Size", "Size", 0 ],
 			"obj-37" : [ "Transposition", "Transp", 0 ],
-			"obj-3" : [ "Window Size", "WinSize", 0 ],
-			"obj-90" : [ "Pan", "Pan", 0 ],
 			"obj-36" : [ "Count", "Count", 0 ],
-			"obj-93" : [ "#1_Granular_Gain", "Gain", 0 ]
+			"obj-78" : [ "Detune", "Detune", 0 ],
+			"obj-93" : [ "#1_Granular_Gain", "Gain", 0 ],
+			"obj-90" : [ "Pan", "Pan", 0 ],
+			"obj-63" : [ "Grain Size", "Size", 0 ],
+			"obj-3" : [ "Window Size", "WinSize", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
