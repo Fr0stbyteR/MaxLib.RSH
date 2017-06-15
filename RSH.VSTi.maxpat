@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 708.0, 279.0, 1052.0, 688.0 ],
+		"rect" : [ 374.0, 168.0, 984.0, 536.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 11.0,
@@ -38,6 +38,123 @@
 		"subpatcher_template" : "default",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-41",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 15.0, 165.0, 34.0, 22.0 ],
+					"style" : "",
+					"text" : "gate"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-48",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 645.0, 270.0, 65.0, 22.0 ],
+					"style" : "",
+					"text" : "symbol $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-57",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 255.0, 225.0, 88.0, 22.0 ],
+					"style" : "",
+					"text" : "prepend prefix"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-54",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"outlettype" : [ "", "", "", "", "" ],
+					"patching_rect" : [ 720.0, 225.0, 84.0, 22.0 ],
+					"style" : "",
+					"text" : "regexp (.+/).+"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-55",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "int" ],
+					"patching_rect" : [ 645.0, 225.0, 58.0, 22.0 ],
+					"style" : "",
+					"text" : "strippath"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-56",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 645.0, 195.0, 94.0, 22.0 ],
+					"style" : "",
+					"text" : "t s s"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-49",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 90.0, 225.0, 35.0, 22.0 ],
+					"style" : "",
+					"text" : "clear"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-46",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 390.0, 75.0, 57.0, 22.0 ],
+					"style" : "",
+					"text" : "hidden 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-30",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 255.0, 195.0, 39.0, 22.0 ],
+					"style" : "",
+					"text" : "zl reg"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-51",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -46,19 +163,6 @@
 					"patching_rect" : [ 697.5, 105.0, 79.0, 22.0 ],
 					"style" : "",
 					"text" : "absolutepath"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-49",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 255.0, 225.0, 88.0, 22.0 ],
-					"style" : "",
-					"text" : "prepend prefix"
 				}
 
 			}
@@ -330,6 +434,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 255.0, 255.0, 109.0, 20.0 ],
+					"prefix" : "notfound",
 					"presentation" : 1,
 					"presentation_rect" : [ 240.0, 0.0, 120.0, 20.0 ],
 					"style" : "",
@@ -340,13 +445,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-73",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 285.0, 37.0, 22.0 ],
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "write" ],
+					"patching_rect" : [ 255.0, 165.0, 54.0, 22.0 ],
 					"style" : "",
-					"text" : "write"
+					"text" : "t b write"
 				}
 
 			}
@@ -360,7 +465,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 15.0, 255.0, 68.0, 18.0 ],
+					"patching_rect" : [ 255.0, 135.0, 68.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 360.0, 0.0, 45.0, 20.0 ],
 					"style" : "",
@@ -514,6 +619,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 135.0, 255.0, 109.0, 20.0 ],
+					"prefix" : "E:/Documents/CNSMD/Piece/1706_MaisonDesAveugles/patch/vst/",
 					"presentation" : 1,
 					"presentation_rect" : [ 120.0, 0.0, 120.0, 20.0 ],
 					"style" : "",
@@ -681,45 +787,6 @@
 					"patching_rect" : [ 750.0, 375.0, 49.0, 22.0 ],
 					"style" : "",
 					"text" : "gain $1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-91",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 75.0, 105.0, 38.0, 22.0 ],
-					"style" : "",
-					"text" : "open"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-7",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 15.0, 105.0, 37.0, 22.0 ],
-					"style" : "",
-					"text" : "== 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-15",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 135.0, 62.0, 22.0 ],
-					"style" : "",
-					"text" : "disable $1"
 				}
 
 			}
@@ -910,7 +977,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 750.0, 405.0, 184.0, 22.0 ],
+					"patching_rect" : [ 750.0, 405.0, 196.0, 22.0 ],
 					"style" : "",
 					"text" : "RSH.MIDI.Learn.Cell #1_VSTi.In"
 				}
@@ -1006,13 +1073,13 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 75.0, 405.0, 60.0, 22.0 ],
 					"restore" : 					{
-						"#1_VSTi_Gain" : [ 0.0 ],
+						"Reaktor_VSTi_Gain" : [ 0.0 ],
 						"live.drop" : [ "" ]
 					}
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u332004060"
+					"varname" : "u277015559"
 				}
 
 			}
@@ -1065,7 +1132,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 645.0, 75.0, 176.5, 22.0 ],
 					"style" : "",
-					"text" : "route plug preset gain"
+					"text" : "route preset plug gain"
 				}
 
 			}
@@ -1077,7 +1144,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 645.0, 45.0, 72.0, 22.0 ],
+					"patching_rect" : [ 645.0, 45.0, 98.0, 22.0 ],
 					"style" : "",
 					"text" : "r #1_VSTi.In"
 				}
@@ -1103,7 +1170,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "#1_VSTi_Gain",
+							"parameter_longname" : "Reaktor_VSTi_Gain",
 							"parameter_shortname" : "Gain",
 							"parameter_type" : 0,
 							"parameter_mmin" : -70.0,
@@ -1118,20 +1185,7 @@
 ,
 					"showname" : 0,
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"varname" : "#1_VSTi_Gain"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-2",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 15.0, 105.0, 29.5, 22.0 ],
-					"style" : "",
-					"text" : "+ 1"
+					"varname" : "Reaktor_VSTi_Gain"
 				}
 
 			}
@@ -1224,6 +1278,40 @@
 						"parameter_enable" : 0
 					}
 ,
+					"snapshot" : 					{
+						"filetype" : "C74Snapshot",
+						"version" : 2,
+						"minorversion" : 0,
+						"name" : "snapshotlist",
+						"origin" : "vst~",
+						"type" : "list",
+						"subtype" : "Undefined",
+						"embed" : 1,
+						"snapshotlist" : 						{
+							"current_snapshot" : -1,
+							"entries" : [ 								{
+									"filetype" : "C74Snapshot",
+									"version" : 2,
+									"minorversion" : 0,
+									"name" : "Reaktor5",
+									"origin" : "Reaktor5.dll",
+									"type" : "VST",
+									"subtype" : "Instrument",
+									"embed" : 0,
+									"fileref" : 									{
+										"name" : "Reaktor5",
+										"filename" : "Reaktor5.maxsnap",
+										"filepath" : "~/Documents/Max 7/Snapshots",
+										"filepos" : -1,
+										"snapshotfileid" : "3708523395d0615df77367ce5070c24a"
+									}
+
+								}
+ ]
+						}
+
+					}
+,
 					"style" : "",
 					"text" : "vst~",
 					"varname" : "#1_VSTi_VST",
@@ -1248,10 +1336,10 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 120.0, 20.0 ],
 					"style" : "",
-					"text" : "VSTi #1",
+					"text" : "VSTi Reaktor",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 0,
-					"texton" : "VSTi #1",
+					"texton" : "VSTi Reaktor",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 1.0, 1.0, 0.0, 1.0 ],
 					"usebgoncolor" : 1,
@@ -1302,7 +1390,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-65", 0 ],
+					"destination" : [ "obj-41", 1 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -1311,13 +1399,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
 					"source" : [ "obj-12", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-65", 0 ],
-					"source" : [ "obj-15", 0 ]
 				}
 
 			}
@@ -1451,6 +1532,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-57", 0 ],
+					"source" : [ "obj-30", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-33", 0 ],
 					"source" : [ "obj-31", 0 ]
 				}
@@ -1567,6 +1655,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-65", 0 ],
+					"source" : [ "obj-41", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
 					"source" : [ "obj-42", 0 ]
 				}
@@ -1603,7 +1698,37 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
+					"source" : [ "obj-46", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-28", 0 ],
 					"source" : [ "obj-47", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-43", 0 ],
+					"source" : [ "obj-48", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"order" : 1,
+					"source" : [ "obj-49", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-43", 0 ],
+					"order" : 0,
+					"source" : [ "obj-49", 0 ]
 				}
 
 			}
@@ -1630,15 +1755,50 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-49", 0 ],
+					"destination" : [ "obj-45", 0 ],
 					"source" : [ "obj-51", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-45", 0 ],
+					"destination" : [ "obj-56", 0 ],
 					"source" : [ "obj-52", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 0 ],
+					"source" : [ "obj-54", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-48", 0 ],
+					"source" : [ "obj-55", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-54", 0 ],
+					"source" : [ "obj-56", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-55", 0 ],
+					"source" : [ "obj-56", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-43", 0 ],
+					"source" : [ "obj-57", 0 ]
 				}
 
 			}
@@ -1696,7 +1856,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
+					"destination" : [ "obj-41", 0 ],
 					"source" : [ "obj-66", 0 ]
 				}
 
@@ -1710,22 +1870,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-15", 0 ],
-					"source" : [ "obj-7", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
-					"order" : 0,
-					"source" : [ "obj-70", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-27", 0 ],
 					"order" : 1,
 					"source" : [ "obj-70", 0 ]
 				}
@@ -1733,8 +1878,32 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-71", 0 ],
+					"destination" : [ "obj-27", 0 ],
 					"order" : 2,
+					"source" : [ "obj-70", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-46", 0 ],
+					"order" : 0,
+					"source" : [ "obj-70", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-49", 0 ],
+					"order" : 3,
+					"source" : [ "obj-70", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-71", 0 ],
+					"order" : 4,
 					"source" : [ "obj-70", 0 ]
 				}
 
@@ -1762,8 +1931,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-65", 0 ],
+					"destination" : [ "obj-30", 0 ],
 					"source" : [ "obj-73", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-65", 0 ],
+					"source" : [ "obj-73", 1 ]
 				}
 
 			}
@@ -1778,13 +1954,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
 					"source" : [ "obj-8", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-65", 0 ],
-					"source" : [ "obj-91", 0 ]
 				}
 
 			}
@@ -1811,11 +1980,17 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-93" : [ "#1_VSTi_Gain", "Gain", 0 ],
-			"obj-28" : [ "live.drop", "live.drop", 0 ]
+			"obj-28" : [ "live.drop", "live.drop", 0 ],
+			"obj-93" : [ "Reaktor_VSTi_Gain", "Gain", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "Reaktor5.maxsnap",
+				"bootpath" : "~/Documents/Max 7/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "RSH.Line.maxpat",
 				"bootpath" : "E:/Documents/CNSMD/MaxMSP/Library/Max.Patcher/dist",
 				"patcherrelativepath" : ".",
