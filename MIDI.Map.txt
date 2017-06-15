@@ -1,1 +1,3 @@
 Name, No Ch Min Max Exp;
+"170602_Granular.In gain", 73 1 -70. 0. 1.;
+"Water_Granular.In gain", 75 1 -70. 0. 1.;
