@@ -9,13 +9,15 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 139.0, 164.0, 1000.0, 600.0 ],
+		"bgcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+		"editing_bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+		"rect" : [ 110.0, 105.0, 1000.0, 600.0 ],
 		"bgcolor" : [ 0.360784, 0.360784, 0.360784, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 11.0,
 		"default_fontface" : 0,
-		"default_fontname" : "Microsoft YaHei UI",
+		"default_fontname" : "Lato",
 		"gridonopen" : 2,
 		"gridsize" : [ 15.0, 15.0 ],
 		"gridsnaponopen" : 2,
@@ -60,7 +62,7 @@
 						"openinpresentation" : 0,
 						"default_fontsize" : 11.0,
 						"default_fontface" : 0,
-						"default_fontname" : "Microsoft YaHei UI",
+						"default_fontname" : "Lato",
 						"gridonopen" : 2,
 						"gridsize" : [ 15.0, 15.0 ],
 						"gridsnaponopen" : 2,
@@ -192,7 +194,7 @@
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
-						"fontname" : "Microsoft YaHei UI",
+						"fontname" : "Lato",
 						"fontsize" : 11.0,
 						"globalpatchername" : "",
 						"style" : "",
@@ -227,7 +229,7 @@
 						"openinpresentation" : 0,
 						"default_fontsize" : 11.0,
 						"default_fontface" : 0,
-						"default_fontname" : "Microsoft YaHei UI",
+						"default_fontname" : "Lato",
 						"gridonopen" : 2,
 						"gridsize" : [ 15.0, 15.0 ],
 						"gridsnaponopen" : 2,
@@ -359,7 +361,7 @@
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
-						"fontname" : "Microsoft YaHei UI",
+						"fontname" : "Lato",
 						"fontsize" : 11.0,
 						"globalpatchername" : "",
 						"style" : "",
@@ -394,7 +396,7 @@
 						"openinpresentation" : 0,
 						"default_fontsize" : 11.0,
 						"default_fontface" : 0,
-						"default_fontname" : "Microsoft YaHei UI",
+						"default_fontname" : "Lato",
 						"gridonopen" : 2,
 						"gridsize" : [ 15.0, 15.0 ],
 						"gridsnaponopen" : 2,
@@ -526,7 +528,7 @@
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
-						"fontname" : "Microsoft YaHei UI",
+						"fontname" : "Lato",
 						"fontsize" : 11.0,
 						"globalpatchername" : "",
 						"style" : "",
@@ -561,7 +563,7 @@
 						"openinpresentation" : 0,
 						"default_fontsize" : 11.0,
 						"default_fontface" : 0,
-						"default_fontname" : "Microsoft YaHei UI",
+						"default_fontname" : "Lato",
 						"gridonopen" : 2,
 						"gridsize" : [ 15.0, 15.0 ],
 						"gridsnaponopen" : 2,
@@ -693,7 +695,7 @@
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
-						"fontname" : "Microsoft YaHei UI",
+						"fontname" : "Lato",
 						"fontsize" : 11.0,
 						"globalpatchername" : "",
 						"style" : "",
@@ -728,7 +730,7 @@
 						"openinpresentation" : 0,
 						"default_fontsize" : 11.0,
 						"default_fontface" : 0,
-						"default_fontname" : "Microsoft YaHei UI",
+						"default_fontname" : "Lato",
 						"gridonopen" : 2,
 						"gridsize" : [ 15.0, 15.0 ],
 						"gridsnaponopen" : 2,
@@ -860,7 +862,7 @@
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
-						"fontname" : "Microsoft YaHei UI",
+						"fontname" : "Lato",
 						"fontsize" : 11.0,
 						"globalpatchername" : "",
 						"style" : "",
@@ -905,7 +907,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-60",
 					"maxclass" : "newobj",
@@ -920,7 +922,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-58",
 					"maxclass" : "newobj",
@@ -935,7 +937,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-68",
 					"maxclass" : "message",
@@ -949,7 +951,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-67",
 					"maxclass" : "message",
@@ -964,7 +966,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-47",
 					"maxclass" : "newobj",
@@ -979,7 +981,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-48",
 					"maxclass" : "newobj",
@@ -994,7 +996,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-50",
 					"maxclass" : "newobj",
@@ -1009,7 +1011,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-53",
 					"maxclass" : "newobj",
@@ -1024,7 +1026,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-55",
 					"maxclass" : "newobj",
@@ -1039,7 +1041,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-57",
 					"maxclass" : "newobj",
@@ -1054,7 +1056,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-59",
 					"maxclass" : "newobj",
@@ -1069,7 +1071,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-64",
 					"maxclass" : "newobj",
@@ -1084,7 +1086,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-49",
 					"maxclass" : "newobj",
@@ -1099,7 +1101,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-65",
 					"maxclass" : "newobj",
@@ -1114,7 +1116,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-54",
 					"maxclass" : "newobj",
@@ -1130,7 +1132,7 @@
 , 			{
 				"box" : 				{
 					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-52",
 					"maxclass" : "newobj",
@@ -1201,7 +1203,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-56",
 					"maxclass" : "newobj",
@@ -1216,7 +1218,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-45",
 					"maxclass" : "newobj",
@@ -1231,7 +1233,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 0.0, 0.5 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"bgoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : 10.0,
 					"hint" : "Enter Points",
@@ -1258,7 +1260,7 @@
 , 			{
 				"box" : 				{
 					"color" : [ 1.0, 1.0, 0.0, 1.0 ],
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-35",
 					"maxclass" : "newobj",
@@ -1286,7 +1288,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-43",
 					"maxclass" : "message",
@@ -1301,7 +1303,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-39",
 					"maxclass" : "newobj",
@@ -1316,7 +1318,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-38",
 					"maxclass" : "newobj",
@@ -1331,7 +1333,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-21",
 					"maxclass" : "newobj",
@@ -1346,7 +1348,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-17",
 					"maxclass" : "message",
@@ -1361,7 +1363,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-15",
 					"maxclass" : "newobj",
@@ -1376,7 +1378,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-14",
 					"maxclass" : "newobj",
@@ -1391,7 +1393,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-13",
 					"maxclass" : "newobj",
@@ -1406,7 +1408,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-36",
 					"maxclass" : "message",
@@ -1421,7 +1423,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-33",
 					"maxclass" : "newobj",
@@ -1436,7 +1438,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-30",
 					"maxclass" : "newobj",
@@ -1451,7 +1453,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-27",
 					"maxclass" : "newobj",
@@ -1544,7 +1546,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-41",
 					"maxclass" : "newobj",
@@ -1572,7 +1574,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-31",
 					"maxclass" : "newobj",
@@ -1600,7 +1602,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-20",
 					"maxclass" : "newobj",
@@ -1615,7 +1617,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-16",
 					"maxclass" : "newobj",
@@ -1630,7 +1632,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-10",
 					"maxclass" : "newobj",
@@ -1644,7 +1646,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u849000604"
+					"varname" : "u336004566"
 				}
 
 			}
@@ -1678,7 +1680,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-5",
 					"maxclass" : "newobj",
@@ -1752,7 +1754,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-44",
 					"maxclass" : "newobj",
@@ -1767,7 +1769,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-40",
 					"maxclass" : "newobj",
@@ -1782,7 +1784,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-26",
 					"maxclass" : "newobj",
@@ -1797,7 +1799,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-25",
 					"maxclass" : "newobj",
@@ -1812,7 +1814,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-24",
 					"maxclass" : "newobj",
@@ -1827,7 +1829,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-18",
 					"maxclass" : "newobj",
@@ -1867,7 +1869,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-9",
 					"maxclass" : "message",
@@ -1882,7 +1884,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-11",
 					"maxclass" : "message",
@@ -2577,49 +2579,49 @@
 		"dependency_cache" : [ 			{
 				"name" : "RSH.Pattr.maxpat",
 				"bootpath" : "E:/Documents/CNSMD/MaxMSP/Library/Max.Patcher/dist",
-				"patcherrelativepath" : "./dist",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RSH.Pattr.UI.js",
 				"bootpath" : "E:/Documents/CNSMD/MaxMSP/Library/Max.Patcher/dist",
-				"patcherrelativepath" : "./dist",
+				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "getWindowSize.js",
 				"bootpath" : "E:/Documents/CNSMD/MaxMSP/Library/Max.Patcher/dist",
-				"patcherrelativepath" : "./dist",
+				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RSH.Pattr.js",
 				"bootpath" : "E:/Documents/CNSMD/MaxMSP/Library/Max.Patcher/dist",
-				"patcherrelativepath" : "./dist",
+				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RSH.MIDI.Learn.Cell.maxpat",
 				"bootpath" : "E:/Documents/CNSMD/MaxMSP/Library/Max.Patcher/dist",
-				"patcherrelativepath" : "./dist",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RSH.Line.maxpat",
 				"bootpath" : "E:/Documents/CNSMD/MaxMSP/Library/Max.Patcher/dist",
-				"patcherrelativepath" : "./dist",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RSH.Line.js",
 				"bootpath" : "E:/Documents/CNSMD/MaxMSP/Library/Max.Patcher/dist",
-				"patcherrelativepath" : "./dist",
+				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

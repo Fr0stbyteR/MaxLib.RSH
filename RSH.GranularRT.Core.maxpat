@@ -9,12 +9,14 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 497.0, 438.0, 916.0, 480.0 ],
+		"bgcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+		"editing_bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+		"rect" : [ 228.0, 142.0, 916.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 11.0,
 		"default_fontface" : 0,
-		"default_fontname" : "Microsoft YaHei UI",
+		"default_fontname" : "Lato",
 		"gridonopen" : 2,
 		"gridsize" : [ 15.0, 15.0 ],
 		"gridsnaponopen" : 2,
@@ -213,7 +215,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 520.1875, 0.0, 46.625, 20.0 ],
 					"style" : "",
-					"text" : "transp"
+					"text" : "transp",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
 			}
@@ -252,10 +255,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 507.75, 15.0, 30.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"style" : "",
 					"text" : "in 4"
 				}
@@ -374,7 +373,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 90.0, 0.0, 75.0, 20.0 ],
 					"style" : "",
-					"text" : "count 1-40"
+					"text" : "count 1-40",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
 			}
@@ -387,10 +387,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 120.0, 15.0, 30.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"style" : "",
 					"text" : "in 1"
 				}
@@ -575,10 +571,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 90.0, 855.0, 46.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"style" : "",
 					"text" : "out~ 2"
 				}
@@ -592,10 +584,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 30.0, 855.0, 46.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"style" : "",
 					"text" : "out~ 1"
 				}
@@ -635,7 +623,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 570.0, 0.0, 120.0, 20.0 ],
 					"style" : "",
-					"text" : "pan random 0 - 1"
+					"text" : "pan random 0 - 1",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
 			}
@@ -648,10 +637,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 571.625, 15.0, 30.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"style" : "",
 					"text" : "in 6"
 				}
@@ -990,7 +975,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 405.0, 0.0, 115.5, 20.0 ],
 					"style" : "",
-					"text" : "pitch random 0 - 12"
+					"text" : "pitch random 0 - 12",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
 			}
@@ -1003,10 +989,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 465.0, 15.0, 30.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"style" : "",
 					"text" : "in 5"
 				}
@@ -1111,7 +1093,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 677.0, 0.0, 93.0, 20.0 ],
 					"style" : "",
-					"text" : "grain length ms"
+					"text" : "grain length ms",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
 			}
@@ -1124,6 +1107,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 645.0, 15.0, 30.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"style" : "",
 					"text" : "in 3"
 				}
@@ -1150,7 +1137,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 294.5, 0.0, 120.0, 20.0 ],
 					"style" : "",
-					"text" : "search limit 0 - 10s"
+					"text" : "search limit 0 - 10s",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
 			}
@@ -1176,10 +1164,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 375.0, 15.0, 30.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"style" : "",
 					"text" : "in 2"
 				}
@@ -1194,6 +1178,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 30.0, 15.0, 38.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"style" : "",
 					"text" : "in~ 1"
 				}

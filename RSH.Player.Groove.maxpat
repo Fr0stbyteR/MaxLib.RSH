@@ -9,12 +9,14 @@
 			"modernui" : 1
 		}
 ,
+		"bgcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+		"editing_bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 		"rect" : [ 458.0, 158.0, 752.0, 605.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 11.0,
 		"default_fontface" : 0,
-		"default_fontname" : "Microsoft YaHei UI",
+		"default_fontname" : "Lato",
 		"gridonopen" : 2,
 		"gridsize" : [ 15.0, 15.0 ],
 		"gridsnaponopen" : 2,
@@ -396,7 +398,7 @@
 , 			{
 				"box" : 				{
 					"color" : [ 1.0, 1.0, 0.0, 1.0 ],
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-105",
 					"maxclass" : "newobj",
@@ -497,7 +499,7 @@
 						"openinpresentation" : 0,
 						"default_fontsize" : 11.0,
 						"default_fontface" : 0,
-						"default_fontname" : "Microsoft YaHei UI",
+						"default_fontname" : "Lato",
 						"gridonopen" : 2,
 						"gridsize" : [ 15.0, 15.0 ],
 						"gridsnaponopen" : 2,
@@ -629,7 +631,7 @@
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
-						"fontname" : "Microsoft YaHei UI",
+						"fontname" : "Lato",
 						"fontsize" : 11.0,
 						"globalpatchername" : "",
 						"style" : "",
@@ -879,7 +881,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-116",
 					"maxclass" : "newobj",
@@ -1817,7 +1819,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-120",
 					"maxclass" : "newobj",
@@ -2011,7 +2013,7 @@
 						"openinpresentation" : 0,
 						"default_fontsize" : 11.0,
 						"default_fontface" : 0,
-						"default_fontname" : "Microsoft YaHei UI",
+						"default_fontname" : "Lato",
 						"gridonopen" : 2,
 						"gridsize" : [ 15.0, 15.0 ],
 						"gridsnaponopen" : 2,
@@ -2143,7 +2145,7 @@
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
-						"fontname" : "Microsoft YaHei UI",
+						"fontname" : "Lato",
 						"fontsize" : 11.0,
 						"globalpatchername" : "",
 						"style" : "",
@@ -2217,7 +2219,7 @@
 						"openinpresentation" : 0,
 						"default_fontsize" : 11.0,
 						"default_fontface" : 0,
-						"default_fontname" : "Microsoft YaHei UI",
+						"default_fontname" : "Lato",
 						"gridonopen" : 2,
 						"gridsize" : [ 15.0, 15.0 ],
 						"gridsnaponopen" : 2,
@@ -2349,7 +2351,7 @@
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
-						"fontname" : "Microsoft YaHei UI",
+						"fontname" : "Lato",
 						"fontsize" : 11.0,
 						"globalpatchername" : "",
 						"style" : "",
@@ -2439,7 +2441,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-91",
 					"maxclass" : "message",
@@ -2454,7 +2456,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-74",
 					"maxclass" : "newobj",
@@ -2469,7 +2471,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-48",
 					"maxclass" : "message",
@@ -2498,7 +2500,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-5",
 					"maxclass" : "newobj",
@@ -2514,7 +2516,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.015686, 0.015686, 0.015686, 0.501961 ],
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-51",
 					"maxclass" : "comment",
@@ -2533,8 +2535,8 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.501961 ],
-					"fontname" : "Microsoft YaHei UI",
-					"fontsize" : 9.0,
+					"fontname" : "Lato",
+					"fontsize" : 10.0,
 					"format" : 6,
 					"htricolor" : [ 0.870588, 0.819608, 0.239216, 1.0 ],
 					"id" : "obj-66",
@@ -2543,7 +2545,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 379.125, 300.0, 42.0, 20.0 ],
+					"patching_rect" : [ 379.125, 300.0, 44.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 135.0, 50.0, 45.0, 20.0 ],
 					"style" : "",
@@ -2556,8 +2558,8 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.501961 ],
-					"fontname" : "Microsoft YaHei UI",
-					"fontsize" : 9.0,
+					"fontname" : "Lato",
+					"fontsize" : 10.0,
 					"format" : 6,
 					"htricolor" : [ 0.870588, 0.819608, 0.239216, 1.0 ],
 					"id" : "obj-65",
@@ -2566,7 +2568,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 332.75, 300.0, 42.0, 20.0 ],
+					"patching_rect" : [ 332.75, 300.0, 44.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 135.0, 30.0, 45.0, 20.0 ],
 					"style" : "",
@@ -2578,7 +2580,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-52",
 					"maxclass" : "message",
@@ -2595,7 +2597,7 @@
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"buffername" : "null",
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-53",
 					"maxclass" : "waveform~",
@@ -2643,7 +2645,7 @@
 , 			{
 				"box" : 				{
 					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-42",
 					"maxclass" : "newobj",
@@ -2659,7 +2661,7 @@
 , 			{
 				"box" : 				{
 					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-40",
 					"maxclass" : "newobj",
@@ -2732,7 +2734,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u004005264"
+					"varname" : "u463006085"
 				}
 
 			}
@@ -2798,7 +2800,7 @@
 						"openinpresentation" : 0,
 						"default_fontsize" : 11.0,
 						"default_fontface" : 0,
-						"default_fontname" : "Microsoft YaHei UI",
+						"default_fontname" : "Lato",
 						"gridonopen" : 2,
 						"gridsize" : [ 15.0, 15.0 ],
 						"gridsnaponopen" : 2,
@@ -2930,7 +2932,7 @@
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
-						"fontname" : "Microsoft YaHei UI",
+						"fontname" : "Lato",
 						"fontsize" : 11.0,
 						"globalpatchername" : "",
 						"style" : "",
@@ -3041,7 +3043,7 @@
 					"channels" : 10,
 					"clip_size" : 1,
 					"display_range" : [ -70.0, 30.0 ],
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 9.0,
 					"id" : "obj-93",
 					"maxclass" : "live.gain~",
@@ -3177,7 +3179,7 @@
 						"openinpresentation" : 0,
 						"default_fontsize" : 11.0,
 						"default_fontface" : 0,
-						"default_fontname" : "Microsoft YaHei UI",
+						"default_fontname" : "Lato",
 						"gridonopen" : 2,
 						"gridsize" : [ 15.0, 15.0 ],
 						"gridsnaponopen" : 2,
@@ -3309,7 +3311,7 @@
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
-						"fontname" : "Microsoft YaHei UI",
+						"fontname" : "Lato",
 						"fontsize" : 11.0,
 						"globalpatchername" : "",
 						"style" : "",
@@ -3343,16 +3345,16 @@
 , 			{
 				"box" : 				{
 					"fontface" : 0,
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"id" : "obj-78",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 540.0, 255.0, 45.0, 50.0 ],
+					"patching_rect" : [ 540.0, 255.0, 45.0, 49.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 90.0, 20.0, 45.0, 50.0 ],
+					"presentation_rect" : [ 90.0, 20.0, 45.0, 49.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "Speed",
@@ -4550,8 +4552,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-93" : [ "#1_Player_Groove_Gain", "Gain", 0 ],
-			"obj-78" : [ "Speed", "Speed", 0 ]
+			"obj-78" : [ "Speed", "Speed", 0 ],
+			"obj-93" : [ "#1_Player_Groove_Gain", "Gain", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{

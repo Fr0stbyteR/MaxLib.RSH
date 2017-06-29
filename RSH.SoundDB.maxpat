@@ -9,12 +9,14 @@
 			"modernui" : 1
 		}
 ,
+		"bgcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+		"editing_bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 		"rect" : [ 356.0, 119.0, 873.0, 563.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 11.0,
 		"default_fontface" : 0,
-		"default_fontname" : "Microsoft YaHei UI",
+		"default_fontname" : "Lato",
 		"gridonopen" : 2,
 		"gridsize" : [ 15.0, 15.0 ],
 		"gridsnaponopen" : 2,
@@ -458,7 +460,7 @@
 					"bgfillcolor_color2" : [ 0.0, 0.0, 0.0, 0.5 ],
 					"bgfillcolor_proportion" : 0.39,
 					"bgfillcolor_type" : "gradient",
-					"fontsize" : 9.0,
+					"fontsize" : 10.0,
 					"hint" : "MIDI In",
 					"id" : "obj-81",
 					"items" : "<empty>",
@@ -708,7 +710,7 @@
 					"bgfillcolor_color2" : [ 0.0, 0.0, 0.0, 0.5 ],
 					"bgfillcolor_proportion" : 0.39,
 					"bgfillcolor_type" : "gradient",
-					"fontsize" : 9.0,
+					"fontsize" : 10.0,
 					"hint" : "MIDI In",
 					"id" : "obj-18",
 					"items" : "<empty>",
@@ -808,12 +810,13 @@
 						"#1_SoundDB_Search" : [ -1 ],
 						"#1_SoundDB_TTags" : [ "<empty>" ],
 						"#1_SoundDB_Tag" : [ -1 ],
-						"#1_SoundDB_TagList" : [ 0 ]
+						"#1_SoundDB_TagList" : [ 0 ],
+						"live.drop" : [ "" ]
 					}
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u826001829"
+					"varname" : "u319001182"
 				}
 
 			}
@@ -991,7 +994,7 @@
 					"decodemode" : 1,
 					"focusbordercolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"fontface" : 0,
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-10",
 					"legend" : "Drop Folder",
@@ -1013,7 +1016,8 @@
 
 					}
 ,
-					"textcolor" : [ 1.0, 1.0, 1.0, 0.0 ]
+					"textcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"varname" : "live.drop"
 				}
 
 			}

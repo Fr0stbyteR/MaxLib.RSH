@@ -9,12 +9,12 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 374.0, 168.0, 984.0, 536.0 ],
+		"rect" : [ 168.0, 177.0, 984.0, 536.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 11.0,
 		"default_fontface" : 0,
-		"default_fontname" : "Microsoft YaHei UI",
+		"default_fontname" : "Lato",
 		"gridonopen" : 2,
 		"gridsize" : [ 15.0, 15.0 ],
 		"gridsnaponopen" : 2,
@@ -255,7 +255,7 @@
 						"openinpresentation" : 0,
 						"default_fontsize" : 11.0,
 						"default_fontface" : 0,
-						"default_fontname" : "Microsoft YaHei UI",
+						"default_fontname" : "Lato",
 						"gridonopen" : 2,
 						"gridsize" : [ 15.0, 15.0 ],
 						"gridsnaponopen" : 2,
@@ -387,7 +387,7 @@
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
-						"fontname" : "Microsoft YaHei UI",
+						"fontname" : "Lato",
 						"fontsize" : 11.0,
 						"globalpatchername" : "",
 						"style" : "",
@@ -433,10 +433,10 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 255.0, 255.0, 109.0, 20.0 ],
+					"patching_rect" : [ 255.0, 255.0, 109.0, 19.0 ],
 					"prefix" : "notfound",
 					"presentation" : 1,
-					"presentation_rect" : [ 240.0, 0.0, 120.0, 20.0 ],
+					"presentation_rect" : [ 240.0, 0.0, 120.0, 19.0 ],
 					"style" : "",
 					"types" : "AFxP"
 				}
@@ -564,7 +564,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 135.0, 285.0, 90.0, 36.0 ],
+					"patching_rect" : [ 135.0, 285.0, 90.0, 35.0 ],
 					"style" : "",
 					"text" : "clearchecks, checkitem $1 1"
 				}
@@ -618,10 +618,10 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 135.0, 255.0, 109.0, 20.0 ],
+					"patching_rect" : [ 135.0, 255.0, 109.0, 19.0 ],
 					"prefix" : "E:/Documents/CNSMD/Piece/1706_MaisonDesAveugles/patch/vst/",
 					"presentation" : 1,
-					"presentation_rect" : [ 120.0, 0.0, 120.0, 20.0 ],
+					"presentation_rect" : [ 120.0, 0.0, 120.0, 19.0 ],
 					"style" : "",
 					"types" : "aPcs"
 				}
@@ -724,7 +724,7 @@
 					"decodemode" : 1,
 					"focusbordercolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : 0,
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-28",
 					"legend" : "Drop VSTi",
@@ -813,7 +813,7 @@
 						"openinpresentation" : 0,
 						"default_fontsize" : 11.0,
 						"default_fontface" : 0,
-						"default_fontname" : "Microsoft YaHei UI",
+						"default_fontname" : "Lato",
 						"gridonopen" : 2,
 						"gridsize" : [ 15.0, 15.0 ],
 						"gridsnaponopen" : 2,
@@ -945,7 +945,7 @@
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
-						"fontname" : "Microsoft YaHei UI",
+						"fontname" : "Lato",
 						"fontsize" : 11.0,
 						"globalpatchername" : "",
 						"style" : "",
@@ -991,7 +991,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 722.5, 45.0, 63.0, 22.0 ],
+					"patching_rect" : [ 722.5, 45.0, 61.0, 22.0 ],
 					"style" : "",
 					"text" : "r __VSTi.In"
 				}
@@ -1073,13 +1073,13 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 75.0, 405.0, 60.0, 22.0 ],
 					"restore" : 					{
-						"Reaktor_VSTi_Gain" : [ 0.0 ],
+						"#1_VSTi_Gain" : [ 0.0 ],
 						"live.drop" : [ "" ]
 					}
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u277015559"
+					"varname" : "u812001195"
 				}
 
 			}
@@ -1144,7 +1144,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 645.0, 45.0, 98.0, 22.0 ],
+					"patching_rect" : [ 645.0, 45.0, 69.0, 22.0 ],
 					"style" : "",
 					"text" : "r #1_VSTi.In"
 				}
@@ -1154,7 +1154,7 @@
 				"box" : 				{
 					"clip_size" : 1,
 					"display_range" : [ -70.0, 30.0 ],
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 9.0,
 					"id" : "obj-93",
 					"maxclass" : "live.gain~",
@@ -1170,7 +1170,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Reaktor_VSTi_Gain",
+							"parameter_longname" : "#1_VSTi_Gain",
 							"parameter_shortname" : "Gain",
 							"parameter_type" : 0,
 							"parameter_mmin" : -70.0,
@@ -1185,7 +1185,7 @@
 ,
 					"showname" : 0,
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"varname" : "Reaktor_VSTi_Gain"
+					"varname" : "#1_VSTi_Gain"
 				}
 
 			}
@@ -1336,10 +1336,10 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 120.0, 20.0 ],
 					"style" : "",
-					"text" : "VSTi Reaktor",
+					"text" : "VSTi",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 0,
-					"texton" : "VSTi Reaktor",
+					"texton" : "VSTi",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 1.0, 1.0, 0.0, 1.0 ],
 					"usebgoncolor" : 1,
@@ -1981,32 +1981,26 @@
  ],
 		"parameters" : 		{
 			"obj-28" : [ "live.drop", "live.drop", 0 ],
-			"obj-93" : [ "Reaktor_VSTi_Gain", "Gain", 0 ]
+			"obj-93" : [ "#1_VSTi_Gain", "Gain", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "Reaktor5.maxsnap",
-				"bootpath" : "~/Documents/Max 7/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "RSH.Line.maxpat",
-				"bootpath" : "E:/Documents/CNSMD/MaxMSP/Library/Max.Patcher/dist",
+				"bootpath" : "F:/Documents/_MaxMSP/dist_",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RSH.Line.js",
-				"bootpath" : "E:/Documents/CNSMD/MaxMSP/Library/Max.Patcher/dist",
+				"bootpath" : "F:/Documents/_MaxMSP/dist_",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RSH.MIDI.Learn.Cell.maxpat",
-				"bootpath" : "E:/Documents/CNSMD/MaxMSP/Library/Max.Patcher/dist",
+				"bootpath" : "F:/Documents/_MaxMSP/dist_",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
