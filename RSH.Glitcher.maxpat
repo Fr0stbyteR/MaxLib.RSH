@@ -9,8 +9,6 @@
 			"modernui" : 1
 		}
 ,
-		"bgcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-		"editing_bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 		"rect" : [ 115.0, 170.0, 1243.0, 611.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -1393,12 +1391,12 @@
 						"#1_Glitcher_Gain" : [ 0.0 ],
 						"#1_Glitcher_Reset" : [ -1 ],
 						"#1_Glitcher_Size" : [ 10.0 ],
-						"#1_Glitcher_Transp" : [ -1.133858 ]
+						"#1_Glitcher_Transp" : [ 0.0 ]
 					}
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u256004339"
+					"varname" : "u234013152"
 				}
 
 			}
@@ -1770,7 +1768,7 @@
 							"parameter_mmax" : 250.0,
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 1 ],
-							"parameter_unitstyle" : 1,
+							"parameter_unitstyle" : 2,
 							"parameter_exponent" : 2.0
 						}
 
@@ -2458,28 +2456,28 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-137" : [ "Transp", "Transp", 0 ],
 			"obj-93" : [ "#1_Glitcher_Gain", "Gain", 0 ],
-			"obj-3" : [ "Size", "Size", 0 ],
-			"obj-137" : [ "Transp", "Transp", 0 ]
+			"obj-3" : [ "Size", "Size", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "RSH.Line.maxpat",
-				"bootpath" : "E:/Documents/CNSMD/MaxMSP/Library/Max.Patcher/dist",
+				"bootpath" : "F:/Documents/_MaxMSP/MaxLib.RSH",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RSH.Line.js",
-				"bootpath" : "E:/Documents/CNSMD/MaxMSP/Library/Max.Patcher/dist",
+				"bootpath" : "F:/Documents/_MaxMSP/MaxLib.RSH",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RSH.MIDI.Learn.Cell.maxpat",
-				"bootpath" : "E:/Documents/CNSMD/MaxMSP/Library/Max.Patcher/dist",
+				"bootpath" : "F:/Documents/_MaxMSP/MaxLib.RSH",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

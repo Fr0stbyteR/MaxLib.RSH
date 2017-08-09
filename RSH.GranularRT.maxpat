@@ -9,8 +9,6 @@
 			"modernui" : 1
 		}
 ,
-		"bgcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-		"editing_bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 		"rect" : [ 10.0, 117.0, 968.0, 713.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -39,6 +37,19 @@
 		"style" : "",
 		"subpatcher_template" : "default",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 615.0, 345.0, 29.5, 22.0 ],
+					"style" : "",
+					"text" : "i"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-74",
 					"maxclass" : "newobj",
@@ -641,7 +652,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u897003157"
+					"varname" : "u631005388"
 				}
 
 			}
@@ -986,7 +997,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 615.0, 345.0, 71.0, 22.0 ],
+					"patching_rect" : [ 615.0, 375.0, 71.0, 22.0 ],
 					"style" : "",
 					"text" : "target 0, $1"
 				}
@@ -3626,7 +3637,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-29", 0 ],
+					"destination" : [ "obj-7", 0 ],
 					"order" : 0,
 					"source" : [ "obj-36", 0 ]
 				}
@@ -3980,6 +3991,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-29", 0 ],
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-50", 0 ],
 					"order" : 0,
 					"source" : [ "obj-70", 0 ]
@@ -4220,26 +4238,26 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-36" : [ "Count", "Count", 0 ],
 			"obj-3" : [ "Window Size", "WinSize", 0 ],
-			"obj-93" : [ "#1_GranularRT_Gain", "Gain", 0 ],
-			"obj-37" : [ "Transposition", "Transp", 0 ],
-			"obj-122" : [ "#1_GranularRT_PreGain", "Gain", 0 ],
-			"obj-78" : [ "Detune", "Detune", 0 ],
 			"obj-63" : [ "Grain Size", "Size", 0 ],
-			"obj-90" : [ "Pan", "Pan", 0 ]
+			"obj-36" : [ "Count", "Count", 0 ],
+			"obj-122" : [ "#1_GranularRT_PreGain", "Gain", 0 ],
+			"obj-37" : [ "Transposition", "Transp", 0 ],
+			"obj-90" : [ "Pan", "Pan", 0 ],
+			"obj-93" : [ "#1_GranularRT_Gain", "Gain", 0 ],
+			"obj-78" : [ "Detune", "Detune", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "RSH.MIDI.Learn.Cell.maxpat",
-				"bootpath" : "E:/Documents/CNSMD/MaxMSP/Library/Max.Patcher/dist",
+				"bootpath" : "F:/Documents/_MaxMSP/MaxLib.RSH",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RSH.GranularRT.Core.maxpat",
-				"bootpath" : "E:/Documents/CNSMD/MaxMSP/Library/Max.Patcher/dist",
+				"bootpath" : "F:/Documents/_MaxMSP/MaxLib.RSH",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -4252,14 +4270,14 @@
 			}
 , 			{
 				"name" : "RSH.Line.maxpat",
-				"bootpath" : "E:/Documents/CNSMD/MaxMSP/Library/Max.Patcher/dist",
+				"bootpath" : "F:/Documents/_MaxMSP/MaxLib.RSH",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RSH.Line.js",
-				"bootpath" : "E:/Documents/CNSMD/MaxMSP/Library/Max.Patcher/dist",
+				"bootpath" : "F:/Documents/_MaxMSP/MaxLib.RSH",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1

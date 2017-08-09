@@ -9,9 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"bgcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-		"editing_bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-		"rect" : [ 99.0, 195.0, 816.0, 713.0 ],
+		"rect" : [ 187.0, 90.0, 816.0, 713.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 11.0,
@@ -39,6 +37,19 @@
 		"style" : "",
 		"subpatcher_template" : "default",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 615.0, 375.0, 29.5, 22.0 ],
+					"style" : "",
+					"text" : "i"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-18",
 					"maxclass" : "message",
@@ -832,7 +843,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u746013789"
+					"varname" : "u196004643"
 				}
 
 			}
@@ -926,9 +937,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1275.0, 195.0, 45.0, 50.0 ],
+					"patching_rect" : [ 1275.0, 195.0, 45.0, 49.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 135.0, 60.0, 45.0, 50.0 ],
+					"presentation_rect" : [ 135.0, 60.0, 45.0, 49.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "Transposition",
@@ -1178,9 +1189,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 615.0, 195.0, 45.0, 50.0 ],
+					"patching_rect" : [ 615.0, 195.0, 45.0, 49.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 60.0, 45.0, 50.0 ],
+					"presentation_rect" : [ 0.0, 60.0, 45.0, 49.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "Count",
@@ -1442,9 +1453,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1605.0, 195.0, 45.0, 50.0 ],
+					"patching_rect" : [ 1605.0, 195.0, 45.0, 49.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 225.0, 60.0, 45.0, 50.0 ],
+					"presentation_rect" : [ 225.0, 60.0, 45.0, 49.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "Pan",
@@ -1693,9 +1704,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1440.0, 195.0, 45.0, 50.0 ],
+					"patching_rect" : [ 1440.0, 195.0, 45.0, 49.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 180.0, 60.0, 45.0, 50.0 ],
+					"presentation_rect" : [ 180.0, 60.0, 45.0, 49.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "Detune",
@@ -1944,9 +1955,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1110.0, 195.0, 45.0, 50.0 ],
+					"patching_rect" : [ 1110.0, 195.0, 45.0, 49.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 90.0, 60.0, 45.0, 50.0 ],
+					"presentation_rect" : [ 90.0, 60.0, 45.0, 49.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "Grain Size",
@@ -2640,9 +2651,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 945.0, 195.0, 45.0, 50.0 ],
+					"patching_rect" : [ 945.0, 195.0, 45.0, 49.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 45.0, 60.0, 45.0, 50.0 ],
+					"presentation_rect" : [ 45.0, 60.0, 45.0, 49.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "Window Size",
@@ -3195,7 +3206,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-29", 0 ],
+					"destination" : [ "obj-7", 0 ],
 					"order" : 0,
 					"source" : [ "obj-36", 0 ]
 				}
@@ -3540,6 +3551,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-29", 0 ],
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-50", 0 ],
 					"order" : 0,
 					"source" : [ "obj-70", 0 ]
@@ -3765,25 +3783,25 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-37" : [ "Transposition", "Transp", 0 ],
-			"obj-36" : [ "Count", "Count", 0 ],
-			"obj-78" : [ "Detune", "Detune", 0 ],
-			"obj-93" : [ "#1_Granular_Gain", "Gain", 0 ],
-			"obj-90" : [ "Pan", "Pan", 0 ],
+			"obj-3" : [ "Window Size", "WinSize", 0 ],
 			"obj-63" : [ "Grain Size", "Size", 0 ],
-			"obj-3" : [ "Window Size", "WinSize", 0 ]
+			"obj-36" : [ "Count", "Count", 0 ],
+			"obj-90" : [ "Pan", "Pan", 0 ],
+			"obj-37" : [ "Transposition", "Transp", 0 ],
+			"obj-93" : [ "#1_Granular_Gain", "Gain", 0 ],
+			"obj-78" : [ "Detune", "Detune", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "RSH.MIDI.Learn.Cell.maxpat",
-				"bootpath" : "E:/Documents/CNSMD/MaxMSP/Library/Max.Patcher/dist",
+				"bootpath" : "F:/Documents/_MaxMSP/MaxLib.RSH",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RSH.Granular.Core.maxpat",
-				"bootpath" : "E:/Documents/CNSMD/MaxMSP/Library/Max.Patcher/dist",
+				"bootpath" : "F:/Documents/_MaxMSP/MaxLib.RSH",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -3796,14 +3814,14 @@
 			}
 , 			{
 				"name" : "RSH.Line.maxpat",
-				"bootpath" : "E:/Documents/CNSMD/MaxMSP/Library/Max.Patcher/dist",
+				"bootpath" : "F:/Documents/_MaxMSP/MaxLib.RSH",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RSH.Line.js",
-				"bootpath" : "E:/Documents/CNSMD/MaxMSP/Library/Max.Patcher/dist",
+				"bootpath" : "F:/Documents/_MaxMSP/MaxLib.RSH",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
