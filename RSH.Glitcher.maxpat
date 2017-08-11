@@ -9,7 +9,9 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 115.0, 170.0, 1243.0, 611.0 ],
+		"rect" : [ 3.0, 101.0, 1243.0, 611.0 ],
+		"bgcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+		"editing_bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 11.0,
@@ -1396,7 +1398,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u234013152"
+					"varname" : "u224007899"
 				}
 
 			}
@@ -2456,8 +2458,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-137" : [ "Transp", "Transp", 0 ],
 			"obj-93" : [ "#1_Glitcher_Gain", "Gain", 0 ],
+			"obj-137" : [ "Transp", "Transp", 0 ],
 			"obj-3" : [ "Size", "Size", 0 ]
 		}
 ,

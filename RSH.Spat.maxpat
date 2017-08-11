@@ -10,11 +10,13 @@
 		}
 ,
 		"rect" : [ 489.0, 230.0, 694.0, 480.0 ],
+		"bgcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+		"editing_bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 11.0,
 		"default_fontface" : 0,
-		"default_fontname" : "Microsoft YaHei UI",
+		"default_fontname" : "Lato",
 		"gridonopen" : 2,
 		"gridsize" : [ 15.0, 15.0 ],
 		"gridsnaponopen" : 2,
@@ -241,7 +243,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u009006708"
+					"varname" : "u670008897"
 				}
 
 			}
@@ -435,7 +437,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-37",
 					"maxclass" : "message",
@@ -477,16 +479,16 @@
 , 			{
 				"box" : 				{
 					"fontface" : 0,
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"id" : "obj-39",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 765.0, 225.0, 45.0, 50.0 ],
+					"patching_rect" : [ 765.0, 225.0, 45.0, 49.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 90.0, 20.0, 45.0, 50.0 ],
+					"presentation_rect" : [ 90.0, 20.0, 45.0, 49.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "Outs",
@@ -542,7 +544,7 @@
 						"openinpresentation" : 0,
 						"default_fontsize" : 11.0,
 						"default_fontface" : 0,
-						"default_fontname" : "Microsoft YaHei UI",
+						"default_fontname" : "Lato",
 						"gridonopen" : 2,
 						"gridsize" : [ 15.0, 15.0 ],
 						"gridsnaponopen" : 2,
@@ -674,7 +676,7 @@
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
-						"fontname" : "Microsoft YaHei UI",
+						"fontname" : "Lato",
 						"fontsize" : 11.0,
 						"globalpatchername" : "",
 						"style" : "",
@@ -688,7 +690,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-2",
 					"maxclass" : "message",
@@ -730,16 +732,16 @@
 , 			{
 				"box" : 				{
 					"fontface" : 0,
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"id" : "obj-17",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 600.0, 225.0, 45.0, 50.0 ],
+					"patching_rect" : [ 600.0, 225.0, 45.0, 49.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 45.0, 20.0, 45.0, 50.0 ],
+					"presentation_rect" : [ 45.0, 20.0, 45.0, 49.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "Speed",
@@ -795,7 +797,7 @@
 						"openinpresentation" : 0,
 						"default_fontsize" : 11.0,
 						"default_fontface" : 0,
-						"default_fontname" : "Microsoft YaHei UI",
+						"default_fontname" : "Lato",
 						"gridonopen" : 2,
 						"gridsize" : [ 15.0, 15.0 ],
 						"gridsnaponopen" : 2,
@@ -927,7 +929,7 @@
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
-						"fontname" : "Microsoft YaHei UI",
+						"fontname" : "Lato",
 						"fontsize" : 11.0,
 						"globalpatchername" : "",
 						"style" : "",
@@ -1237,7 +1239,7 @@
 						"openinpresentation" : 0,
 						"default_fontsize" : 11.0,
 						"default_fontface" : 0,
-						"default_fontname" : "Microsoft YaHei UI",
+						"default_fontname" : "Lato",
 						"gridonopen" : 2,
 						"gridsize" : [ 15.0, 15.0 ],
 						"gridsnaponopen" : 2,
@@ -1369,7 +1371,7 @@
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
-						"fontname" : "Microsoft YaHei UI",
+						"fontname" : "Lato",
 						"fontsize" : 11.0,
 						"globalpatchername" : "",
 						"style" : "",
@@ -1410,7 +1412,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 11.0,
 					"id" : "obj-87",
 					"maxclass" : "message",
@@ -1547,16 +1549,16 @@
 , 			{
 				"box" : 				{
 					"fontface" : 0,
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"id" : "obj-3",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 435.0, 225.0, 45.0, 50.0 ],
+					"patching_rect" : [ 435.0, 225.0, 45.0, 49.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 20.0, 45.0, 50.0 ],
+					"presentation_rect" : [ 0.0, 20.0, 45.0, 49.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "Count",
@@ -1625,7 +1627,7 @@
 						"openinpresentation" : 0,
 						"default_fontsize" : 11.0,
 						"default_fontface" : 0,
-						"default_fontname" : "Microsoft YaHei UI",
+						"default_fontname" : "Lato",
 						"gridonopen" : 2,
 						"gridsize" : [ 15.0, 15.0 ],
 						"gridsnaponopen" : 2,
@@ -1757,7 +1759,7 @@
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
-						"fontname" : "Microsoft YaHei UI",
+						"fontname" : "Lato",
 						"fontsize" : 11.0,
 						"globalpatchername" : "",
 						"style" : "",
@@ -1774,7 +1776,7 @@
 					"channels" : 6,
 					"clip_size" : 1,
 					"display_range" : [ -70.0, 30.0 ],
-					"fontname" : "Microsoft YaHei UI",
+					"fontname" : "Lato",
 					"fontsize" : 9.0,
 					"id" : "obj-93",
 					"maxclass" : "live.gain~",

@@ -14,7 +14,7 @@ var uTagList;
 function read(filename) {
 	var s = "";
 	var f = new File(filename, "read", ["JSON", "TEXT", "DICT"]);
-	while (f.isopen && f.position < f.eof ) {
+	while (f.isopen && f.position < f.eof) {
 		s += f.readline(1);
 	}
 	f.close();

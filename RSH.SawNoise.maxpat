@@ -9,9 +9,9 @@
 			"modernui" : 1
 		}
 ,
+		"rect" : [ -81.0, 166.0, 1439.0, 594.0 ],
 		"bgcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 		"editing_bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-		"rect" : [ 8.0, 166.0, 1439.0, 594.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 11.0,
@@ -281,13 +281,13 @@
 						"#1_SawNoise_FRamp" : [ 0.0 ],
 						"#1_SawNoise_Freq" : [ 2000.0 ],
 						"#1_SawNoise_Gain" : [ 0.0 ],
-						"#1_SawNoise_MS" : [ 0.949495, 0.888889, 0.818182, 0.767677, 0.464646, 0.89899, 0.626263, 0.747475, 0.666667, 0.383838, 0.676768, 0.50505, 0.050505, 0.50505, 0.424242, 0.828283, 0.626263, 0.373737, 0.262626, 0.89899, 0.424242, 0.171717, 0.656566, 0.787879, 0.59596, 0.585859, 0.545455, 0.242424, 0.727273, 0.010101 ],
+						"#1_SawNoise_MS" : [ 0.59596, 0.59596, 0.090909, 0.363636, 0.313131, 0.121212, 0.969697, 0.111111, 0.484848, 0.888889, 0.151515, 0.454545, 0.282828, 0.747475, 0.69697, 0.808081, 0.212121, 0.090909, 0.727273, 0.919192, 0.616162, 0.252525, 0.444444, 0.040404, 0.747475, 0.525253, 0.656566, 0.121212, 0.515152, 0.767677 ],
 						"#1_SawNoise_Rand" : [ -1 ]
 					}
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u697000962"
+					"varname" : "u575004868"
 				}
 
 			}
@@ -878,12 +878,12 @@
 				"box" : 				{
 					"id" : "obj-96",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "int", "int" ],
-					"patching_rect" : [ 870.0, 300.0, 49.0, 22.0 ],
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 870.0, 300.0, 29.5, 22.0 ],
 					"style" : "",
-					"text" : "change"
+					"text" : "> 0"
 				}
 
 			}
@@ -2698,35 +2698,35 @@
 		"parameters" : 		{
 			"obj-32" : [ "Frequency Ramp Time", "fRamp", 0 ],
 			"obj-17" : [ "Distortion", "Disto", 0 ],
-			"obj-15" : [ "#1_SawNoise_Gain", "Gain", 0 ],
 			"obj-3" : [ "Frequency", "Freq", 0 ],
-			"obj-48" : [ "Amplitude Ramp Time", "aRamp", 0 ]
+			"obj-48" : [ "Amplitude Ramp Time", "aRamp", 0 ],
+			"obj-15" : [ "#1_SawNoise_Gain", "Gain", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "RSH.SawNoise.Core.maxpat",
-				"bootpath" : "E:/Documents/CNSMD/MaxMSP/Library/Max.Patcher/dist",
+				"bootpath" : "F:/Documents/_MaxMSP/MaxLib.RSH",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RSH.MIDI.Learn.Cell.maxpat",
-				"bootpath" : "E:/Documents/CNSMD/MaxMSP/Library/Max.Patcher/dist",
+				"bootpath" : "F:/Documents/_MaxMSP/MaxLib.RSH",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RSH.Line.maxpat",
-				"bootpath" : "E:/Documents/CNSMD/MaxMSP/Library/Max.Patcher/dist",
+				"bootpath" : "F:/Documents/_MaxMSP/MaxLib.RSH",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RSH.Line.js",
-				"bootpath" : "E:/Documents/CNSMD/MaxMSP/Library/Max.Patcher/dist",
+				"bootpath" : "F:/Documents/_MaxMSP/MaxLib.RSH",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
