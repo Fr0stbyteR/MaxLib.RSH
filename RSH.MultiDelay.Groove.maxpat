@@ -1820,7 +1820,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u920011312"
+					"varname" : "u094018359"
 				}
 
 			}
@@ -2044,7 +2044,6 @@
 					"bgoncolor" : [ 0.0, 1.0, 0.0, 0.5 ],
 					"hint" : "Bypass",
 					"id" : "obj-66",
-					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"mode" : 1,
 					"numinlets" : 1,
@@ -3043,10 +3042,10 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-20" : [ "Delay", "Delay", 0 ],
 			"obj-93" : [ "#1_MultiDelay_Groove_Gain", "Gain", 0 ],
 			"obj-82" : [ "Transp", "Transp", 0 ],
-			"obj-3" : [ "Count", "Count", 0 ]
+			"obj-3" : [ "Count", "Count", 0 ],
+			"obj-20" : [ "Delay", "Delay", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
