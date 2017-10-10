@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 8.0, 51.0, 981.0, 677.0 ],
+		"rect" : [ 8.0, 51.0, 575.0, 677.0 ],
 		"bgcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 		"editing_bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 		"bglocked" : 0,
@@ -805,7 +805,8 @@
 					"size" : 4,
 					"slidercolor" : [ 0.498039, 1.0, 0.498039, 1.0 ],
 					"style" : "",
-					"thickness" : 1
+					"thickness" : 1,
+					"varname" : "#1_MultiDelay_Groove_TranspMS"
 				}
 
 			}
@@ -854,7 +855,8 @@
 					"size" : 4,
 					"slidercolor" : [ 0.498039, 1.0, 0.498039, 1.0 ],
 					"style" : "",
-					"thickness" : 1
+					"thickness" : 1,
+					"varname" : "#1_MultiDelay_Groove_GainMS"
 				}
 
 			}
@@ -1266,7 +1268,8 @@
 					"size" : 4,
 					"slidercolor" : [ 0.498039, 1.0, 0.498039, 1.0 ],
 					"style" : "",
-					"thickness" : 1
+					"thickness" : 1,
+					"varname" : "#1_MultiDelay_Groove_DelayMS"
 				}
 
 			}
@@ -1813,14 +1816,17 @@
 					"restore" : 					{
 						"#1_MultiDelay_Groove_Count" : [ 4.0 ],
 						"#1_MultiDelay_Groove_Delay" : [ 1000.0 ],
+						"#1_MultiDelay_Groove_DelayMS" : [ 1.0, 1.0, 1.0, 1.0 ],
 						"#1_MultiDelay_Groove_Gain" : [ 0.0 ],
+						"#1_MultiDelay_Groove_GainMS" : [ 1.0, 1.0, 1.0, 1.0 ],
 						"#1_MultiDelay_Groove_Play" : [ -1 ],
-						"#1_MultiDelay_Groove_Transp" : [ 6.0 ]
+						"#1_MultiDelay_Groove_Transp" : [ 6.0 ],
+						"#1_MultiDelay_Groove_TranspMS" : [ 0.0, 0.0, 0.0, 0.0 ]
 					}
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u094018359"
+					"varname" : "u136012287"
 				}
 
 			}
@@ -3042,9 +3048,9 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-3" : [ "Count", "Count", 0 ],
 			"obj-93" : [ "#1_MultiDelay_Groove_Gain", "Gain", 0 ],
 			"obj-82" : [ "Transp", "Transp", 0 ],
-			"obj-3" : [ "Count", "Count", 0 ],
 			"obj-20" : [ "Delay", "Delay", 0 ]
 		}
 ,

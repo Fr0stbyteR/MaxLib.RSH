@@ -9,10 +9,9 @@
 			"modernui" : 1
 		}
 ,
-		"bgcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-		"editing_bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 		"rect" : [ 46.0, 171.0, 727.0, 480.0 ],
 		"bgcolor" : [ 0.239216, 0.254902, 0.278431, 0.0 ],
+		"editing_bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 11.0,
@@ -151,9 +150,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 330.0, 213.0, 208.0, 22.0 ],
+					"patching_rect" : [ 330.0, 213.0, 218.0, 22.0 ],
 					"style" : "",
-					"text" : "RSH.MIDI.Learn.Cell #1_Matrix.MIDIIn"
+					"text" : "RSH.MIDI.Learn.Cell #1_Matrix.Ctrl.MIDIIn"
 				}
 
 			}
@@ -722,7 +721,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u139001764"
+					"varname" : "u509013187"
 				}
 
 			}
@@ -1065,21 +1064,21 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "RSH.Line.maxpat",
-				"bootpath" : "E:/Documents/CNSMD/MaxMSP/Library/Max.Patcher/dist",
+				"bootpath" : "F:/Documents/_MaxMSP/MaxLib.RSH",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RSH.Line.js",
-				"bootpath" : "E:/Documents/CNSMD/MaxMSP/Library/Max.Patcher/dist",
+				"bootpath" : "F:/Documents/_MaxMSP/MaxLib.RSH",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RSH.MIDI.Learn.Cell.maxpat",
-				"bootpath" : "E:/Documents/CNSMD/MaxMSP/Library/Max.Patcher/dist",
+				"bootpath" : "F:/Documents/_MaxMSP/MaxLib.RSH",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

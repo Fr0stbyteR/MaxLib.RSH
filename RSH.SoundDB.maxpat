@@ -9,9 +9,9 @@
 			"modernui" : 1
 		}
 ,
+		"rect" : [ 356.0, 119.0, 873.0, 563.0 ],
 		"bgcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 		"editing_bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-		"rect" : [ 356.0, 119.0, 873.0, 563.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 11.0,
@@ -461,7 +461,7 @@
 					"bgfillcolor_proportion" : 0.39,
 					"bgfillcolor_type" : "gradient",
 					"fontsize" : 10.0,
-					"hint" : "MIDI In",
+					"hint" : "",
 					"id" : "obj-81",
 					"items" : "<empty>",
 					"maxclass" : "umenu",
@@ -711,7 +711,7 @@
 					"bgfillcolor_proportion" : 0.39,
 					"bgfillcolor_type" : "gradient",
 					"fontsize" : 10.0,
-					"hint" : "MIDI In",
+					"hint" : "",
 					"id" : "obj-18",
 					"items" : "<empty>",
 					"maxclass" : "umenu",
@@ -816,7 +816,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u319001182"
+					"varname" : "u230000405"
 				}
 
 			}
@@ -1541,7 +1541,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "RSH.SoundDB.js",
-				"bootpath" : "E:/Documents/CNSMD/MaxMSP/Library/Max.Patcher/dist",
+				"bootpath" : "F:/Documents/_MaxMSP/MaxLib.RSH",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1

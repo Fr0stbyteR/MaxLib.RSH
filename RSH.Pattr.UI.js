@@ -1,4 +1,4 @@
-//REN Shihong © 2017
+﻿//REN Shihong © 2017
 var pname = jsarguments.length > 1 ? jsarguments[1] : "#1";
 var p = this.patcher;
 var lastmode = 0;
@@ -28,7 +28,7 @@ function list() {
 		uRecall.message("fontsize", 8);
 	} else if (mode == 0) {
 		uRecall.message("presentation_rect", 0, 0, 75, 20);
-		uRecall.message("fontsize", 9);
+		uRecall.message("fontsize", 10);
 		fRecall.message("presentation_rect", 75, 0, 30, 20);
 		bMIDI.message("presentation_rect", 105, 0, 20, 20);
 		uDelete.message("presentation_rect", 125, 0, 75, 20);
@@ -38,7 +38,7 @@ function list() {
 		uAttr.message("presentation_rect", 380, 0, 75, 20);
 	} else if (mode == 1) {
 		uRecall.message("presentation_rect", 0, 0, 75, 20);
-		uRecall.message("fontsize", 9);
+		uRecall.message("fontsize", 10);
 		fRecall.message("presentation_rect", 75, 0, 30, 20);
 		uDelete.message("presentation_rect", 0, 20, 75, 20);
 		bMIDI.message("presentation_rect", 75, 20, 30, 20);

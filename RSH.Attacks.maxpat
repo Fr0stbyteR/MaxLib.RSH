@@ -1097,9 +1097,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 180.0, 301.0, 44.0, 22.0 ],
+					"patching_rect" : [ 180.0, 301.0, 87.0, 22.0 ],
 					"style" : "",
-					"text" : "1, 0 $1"
+					"text" : "0, 1 20 1 0 $1 1"
 				}
 
 			}
@@ -2452,7 +2452,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u723001345"
+					"varname" : "u135009356"
 				}
 
 			}
@@ -3948,12 +3948,12 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-26" : [ "Size", "Size", 0 ],
-			"obj-54" : [ "Count", "Count", 0 ],
-			"obj-28" : [ "Curve", "Curve", 0 ],
 			"obj-80" : [ "Speedlim", "Speedlim", 0 ],
 			"obj-75" : [ "#1_Attacks_PreGain", "Gain", 0 ],
-			"obj-3" : [ "Threshold", "Thresh", 0 ]
+			"obj-26" : [ "Size", "Size", 0 ],
+			"obj-3" : [ "Threshold", "Thresh", 0 ],
+			"obj-54" : [ "Count", "Count", 0 ],
+			"obj-28" : [ "Curve", "Curve", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{

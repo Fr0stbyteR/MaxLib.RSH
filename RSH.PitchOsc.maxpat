@@ -1051,7 +1051,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u113007209"
+					"varname" : "u658011887"
 				}
 
 			}
@@ -1123,7 +1123,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1125.0, 255.0, 45.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 98.0, 45.0, 15.0 ],
+					"presentation_rect" : [ 0.0, 94.0, 45.0, 15.0 ],
 					"style" : "",
 					"text" : "",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
@@ -1356,7 +1356,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 15.0, 435.0, 199.0, 38.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 75.0, 90.0, 38.0 ],
+					"presentation_rect" : [ 0.0, 71.0, 90.0, 38.0 ],
 					"prototypename" : "M4L.live.gain~.H.extended",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -1567,9 +1567,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 735.0, 315.0, 182.0, 22.0 ],
+					"patching_rect" : [ 735.0, 315.0, 184.0, 22.0 ],
 					"style" : "",
-					"text" : "RSH.MIDI.Learn.Cell #1.PitchOsc.In"
+					"text" : "RSH.MIDI.Learn.Cell #1_PitchOsc.In"
 				}
 
 			}
