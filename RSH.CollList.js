@@ -17,7 +17,9 @@ function read(filenameIn) {
 
 function goto(indexIn) {
 	if (indexIn < data.length) index = indexIn;
+	infoMaxWindow(index);
 	outlet(2, "goto", indexIn);
+	outlet(2, "gotocue", data[indexIn]["cue"]);
 }
 
 function gotocue(cueIn) {
@@ -25,6 +27,7 @@ function gotocue(cueIn) {
 		if (data[i]["cue"] <= cueIn) {
 			index = i;
 			outlet(2, "goto", index);
+			outlet(2, "gotocue", data[index]["cue"]);
 			return;
 		}
 	}
@@ -34,25 +37,33 @@ function gotocue(cueIn) {
 function first() {
 	index = 0;
 	subIndex = 0;
+	infoMaxWindow(index);
 	outlet(2, "goto", index);
+	outlet(2, "gotocue", data[index]["cue"]);
 }
 
 function last() {
 	index = data.length - 1;
 	subIndex = 0;
+	infoMaxWindow(index);
 	outlet(2, "goto", index);
+	outlet(2, "gotocue", data[index]["cue"]);
 }
 
 function prev() {
 	if (index > 0) index--;
 	subIndex = 0;
+	infoMaxWindow(index);
 	outlet(2, "goto", index);
+	outlet(2, "gotocue", data[index]["cue"]);
 }
 
 function next() {
 	if (index < data.length - 1) index++;
 	subIndex = 0;
+	infoMaxWindow(index);
 	outlet(2, "goto", index);
+	outlet(2, "gotocue", data[index]["cue"]);
 }
 
 function print(b) {
@@ -93,6 +104,7 @@ function init() {
 	}
 	coll.close();
 	outlet(2, "goto", 0);
+	outlet(2, "gotocue", data[0]["cue"]);
 	outlet(2, "title", "READY");
 	outlet(2, "comment", " ");
 	post(data[0]["cue"]);
@@ -115,35 +127,55 @@ function bang() {
 			sendTo(data[index]["msg"][i][0], data[index]["msg"][i].slice(1));
 			if (printOn) post(data[index]["msg"][i].join(" "), "\n");
 		}
-		info(index);
-		next();
+		infoComments(index);
+		if (index < data.length - 1) {
+			outlet(2, "goto", index + 1);
+			outlet(2, "gotocue", data[index + 1]["cue"]);
+		} else {
+			outlet(2, "goto", 0);
+			outlet(2, "gotocue", data[0]["cue"]);
+		}
 		if ("nextIn" in data[index]) outlet(2, "nextin", data[index]["nextIn"]);
+		next();
 	} else {
 		sendTo(data[index]["msg"][subIndex][0], data[index]["msg"][subIndex].slice(1));
 		if (printOn) post(data[index]["msg"][subIndex].join(" "), "\n");
 		if (subIndex == data[index]["msg"].length - 1) {
-			info(index);
-			next();
+			infoComments(index);
+			if (index < data.length - 1) {
+				outlet(2, "goto", index + 1);
+				outlet(2, "gotocue", data[index + 1]["cue"]);
+			} else {
+				outlet(2, "goto", 0);
+				outlet(2, "gotocue", data[0]["cue"]);
+			}
 			if ("nextIn" in data[index]) outlet(2, "nextin", data[index]["nextIn"]);
+			next();
 		} else subIndex++;
 	}
 	outlet(2, "cueend");
 }
 
-function info(indexIn) {
-	if (indexIn < data.length - 1) outlet(2, "goto", indexIn + 1); else outlet(2, "goto", 0);
-	post(data[indexIn]["cue"]);
+function infoComments(indexIn) {
 	if ("title" in data[indexIn]) {
-		outlet(2, "title", data[indexIn]["cue"] + " : " + data[indexIn]["title"]);
-		post(" : ", data[indexIn]["title"]);
+		outlet(2, "title", data[indexIn]["cue"] + " : " + data[indexIn]["title"]); // send to title
 	}
 	if ("comment" in data[indexIn]) {
-		outlet(2, "comment", data[indexIn]["comment"]);
-		post(" ", data[indexIn]["comment"], "\n");
+		outlet(2, "comment", data[indexIn]["comment"]); // send to title
 	} else post();
 }
 
 function sendTo(destination, msg) {
 	outlet(1, destination + " " + msg.join(" "));
 	outlet(0, "bang")
+}
+
+function infoMaxWindow(indexIn) {
+	post(data[indexIn]["cue"]); 
+	if ("title" in data[indexIn]) {
+		post(" : ", data[indexIn]["title"]); // send to max window
+	}
+	if ("comment" in data[indexIn]) {
+		post(" ", data[indexIn]["comment"], "\n"); // send to max window
+	} else post();
 }

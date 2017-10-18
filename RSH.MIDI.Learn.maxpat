@@ -9,9 +9,9 @@
 			"modernui" : 1
 		}
 ,
+		"rect" : [ 502.0, 80.0, 981.0, 609.0 ],
 		"bgcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 		"editing_bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-		"rect" : [ 188.0, 102.0, 981.0, 609.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 11.0,
@@ -570,12 +570,12 @@
 				"box" : 				{
 					"id" : "obj-70",
 					"maxclass" : "newobj",
-					"numinlets" : 6,
-					"numoutlets" : 6,
-					"outlettype" : [ "", "", "", "", "", "" ],
-					"patching_rect" : [ 1260.0, 45.0, 205.0, 22.0 ],
+					"numinlets" : 7,
+					"numoutlets" : 7,
+					"outlettype" : [ "", "", "", "", "", "", "" ],
+					"patching_rect" : [ 1260.0, 45.0, 231.0, 22.0 ],
 					"style" : "",
-					"text" : "route bind assign read sync autosave"
+					"text" : "route bind assign read sync autosave deleteall"
 				}
 
 			}
@@ -702,7 +702,7 @@
 					"fontsize" : 10.0,
 					"hint" : "MIDI Out",
 					"id" : "obj-31",
-					"items" : [ "Microsoft Synthesizer", ",", "Microsoft GS Wavetable Synth" ],
+					"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -881,7 +881,7 @@
 					"fontsize" : 10.0,
 					"hint" : "MIDI In",
 					"id" : "obj-62",
-					"items" : "<empty>",
+					"items" : [ "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1096,6 +1096,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-56",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -2087,6 +2088,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"source" : [ "obj-70", 5 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-73", 0 ],
 					"source" : [ "obj-71", 0 ]
 				}
@@ -2388,29 +2396,22 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "MIDI.Map.txt",
-				"bootpath" : "E:/Documents/CNSMD/MaxMSP/Library/Max.Patcher/dist",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "RSH.MIDI.Learn.js",
-				"bootpath" : "E:/Documents/CNSMD/MaxMSP/Library/Max.Patcher/dist",
+				"bootpath" : "/Volumes/Data/Documents/_MaxMSP/MaxLib.RSH",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "getWindowSize.js",
-				"bootpath" : "E:/Documents/CNSMD/MaxMSP/Library/Max.Patcher/dist",
+				"bootpath" : "/Volumes/Data/Documents/_MaxMSP/MaxLib.RSH",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RSH.MIDI.Learn.UI.js",
-				"bootpath" : "E:/Documents/CNSMD/MaxMSP/Library/Max.Patcher/dist",
+				"bootpath" : "/Volumes/Data/Documents/_MaxMSP/MaxLib.RSH",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1

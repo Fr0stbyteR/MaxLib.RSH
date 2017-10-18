@@ -9,9 +9,9 @@
 			"modernui" : 1
 		}
 ,
+		"rect" : [ 16.0, 100.0, 480.0, 621.0 ],
 		"bgcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 		"editing_bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-		"rect" : [ 16.0, 100.0, 480.0, 621.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 11.0,
@@ -1035,9 +1035,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 449.75, 450.0, 63.0, 22.0 ],
+					"patching_rect" : [ 449.75, 450.0, 61.0, 22.0 ],
 					"style" : "",
-					"text" : "readagain"
+					"text" : "writeagain"
 				}
 
 			}
@@ -1048,9 +1048,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 359.5, 450.0, 65.0, 22.0 ],
+					"patching_rect" : [ 359.5, 450.0, 57.0, 22.0 ],
 					"style" : "",
-					"text" : "writeagain"
+					"text" : "readagain"
 				}
 
 			}
@@ -2162,42 +2162,42 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "RSH.Pattr.UI.js",
-				"bootpath" : "E:/Documents/CNSMD/MaxMSP/Library/Max.Patcher/dist",
+				"bootpath" : "F:/Documents/_MaxMSP/MaxLib.RSH",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "getWindowSize.js",
-				"bootpath" : "E:/Documents/CNSMD/MaxMSP/Library/Max.Patcher/dist",
+				"bootpath" : "F:/Documents/_MaxMSP/MaxLib.RSH",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RSH.Pattr.js",
-				"bootpath" : "E:/Documents/CNSMD/MaxMSP/Library/Max.Patcher/dist",
+				"bootpath" : "F:/Documents/_MaxMSP/MaxLib.RSH",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RSH.MIDI.Learn.Cell.maxpat",
-				"bootpath" : "E:/Documents/CNSMD/MaxMSP/Library/Max.Patcher/dist",
+				"bootpath" : "F:/Documents/_MaxMSP/MaxLib.RSH",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RSH.Line.maxpat",
-				"bootpath" : "E:/Documents/CNSMD/MaxMSP/Library/Max.Patcher/dist",
+				"bootpath" : "F:/Documents/_MaxMSP/MaxLib.RSH",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RSH.Line.js",
-				"bootpath" : "E:/Documents/CNSMD/MaxMSP/Library/Max.Patcher/dist",
+				"bootpath" : "F:/Documents/_MaxMSP/MaxLib.RSH",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1

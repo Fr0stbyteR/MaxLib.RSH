@@ -12,8 +12,12 @@ function bang() {
 	map.clear();
 	map.pull_from_coll("MIDI.Map");
 	keys = map.getkeys();
+	if (keys == null) {
+		sendTo("MIDI.Learn.In", "deleteall");
+		keys = [];
+	}
 	if (typeof keys === 'string') keys = [keys];
-	if (keys[0] == "Name") {
+	if (keys != null && keys[0] == "Name") {
 		map.remove("Name");
 		keys.shift();
 	}
