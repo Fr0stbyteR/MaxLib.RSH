@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 243.0, 81.0, 1024.0, 609.0 ],
+		"rect" : [ 243.0, 81.0, 1000.0, 600.0 ],
 		"bgcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 		"editing_bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 		"bglocked" : 0,
@@ -1554,11 +1554,11 @@
 					"id" : "obj-33",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "bang", "front" ],
-					"patching_rect" : [ 195.0, 75.0, 50.0, 22.0 ],
+					"numoutlets" : 3,
+					"outlettype" : [ "bang", "front", "int" ],
+					"patching_rect" : [ 195.0, 75.0, 59.0, 22.0 ],
 					"style" : "",
-					"text" : "t b front"
+					"text" : "t b front 0"
 				}
 
 			}
@@ -1569,11 +1569,11 @@
 					"id" : "obj-30",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "wclose" ],
-					"patching_rect" : [ 15.0, 75.0, 50.0, 22.0 ],
+					"numoutlets" : 2,
+					"outlettype" : [ "wclose", "int" ],
+					"patching_rect" : [ 15.0, 75.0, 59.0, 22.0 ],
 					"style" : "",
-					"text" : "t wclose"
+					"text" : "t wclose 1"
 				}
 
 			}
@@ -1730,7 +1730,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u031004564"
+					"varname" : "u923011420"
 				}
 
 			}
@@ -1789,7 +1789,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 466.0, 15.0, 65.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 919.0, 0.0, 65.0, 20.0 ],
+					"presentation_rect" : [ 895.0, 0.0, 65.0, 20.0 ],
 					"varname" : "Function_Pattr",
 					"viewvisibility" : 1
 				}
@@ -1930,7 +1930,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 195.0, 435.0, 160.0, 80.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 1024.0, 609.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 1000.0, 600.0 ],
 					"prototypename" : "M4L.black",
 					"style" : "",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
@@ -2186,6 +2186,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"source" : [ "obj-30", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-66", 0 ],
 					"source" : [ "obj-31", 0 ]
 				}
@@ -2202,6 +2209,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
 					"source" : [ "obj-33", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"source" : [ "obj-33", 2 ]
 				}
 
 			}
@@ -2705,15 +2719,8 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "RSH.Line.js",
-				"bootpath" : "F:/Documents/_MaxMSP/MaxLib.RSH",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "Functions.json",
-				"bootpath" : "E:/projets/2/patch",
+				"bootpath" : "E:/projets/4/patch",
 				"type" : "JSON",
 				"implicit" : 1
 			}
