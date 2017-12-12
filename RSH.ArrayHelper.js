@@ -1,4 +1,4 @@
-//REN Shihong © 2017
+﻿//REN Shihong © 2017
 inlets = 1;
 outlets = 1;
 var iSize = jsarguments.length > 1 ? jsarguments[1] : 1;
@@ -28,7 +28,7 @@ function asc() {
 
 function asc0() {
     var step = (fMax - fMin) / (iSize - 1);
-    a = [0];
+    a = [fMin];
     for (var i = 1; i < iSize; i++) {
         a[i] = step * i + fMin;
     }
@@ -47,7 +47,7 @@ function desc() {
 function desc0() {
     var step = (fMax - fMin) / (iSize - 1);
     a = [];
-    a[iSize - 1] = 0;
+    a[iSize - 1] = fMin;
     for (var i = 1; i < iSize; i++) {
         a[iSize - i - 1] = step * i + fMin;
     }

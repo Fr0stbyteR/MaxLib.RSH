@@ -9,9 +9,9 @@
 			"modernui" : 1
 		}
 ,
+		"rect" : [ 67.0, 211.0, 367.0, 480.0 ],
 		"bgcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 		"editing_bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-		"rect" : [ 813.0, 364.0, 367.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 11.0,
@@ -45,7 +45,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 105.0, 60.0, 22.0 ],
+					"patching_rect" : [ 30.0, 105.0, 55.0, 22.0 ],
 					"style" : "",
 					"text" : "tosymbol"
 				}
@@ -58,7 +58,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 75.0, 72.0, 22.0 ],
+					"patching_rect" : [ 30.0, 75.0, 66.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend #1"
 				}
@@ -97,7 +97,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 165.0, 81.0, 22.0 ],
+					"patching_rect" : [ 30.0, 165.0, 75.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend sync"
 				}
@@ -110,7 +110,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 195.0, 89.0, 22.0 ],
+					"patching_rect" : [ 30.0, 195.0, 84.0, 22.0 ],
 					"style" : "",
 					"text" : "s MIDI.Learn.In"
 				}
@@ -123,7 +123,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 180.0, 165.0, 82.0, 22.0 ],
+					"patching_rect" : [ 180.0, 165.0, 74.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend bind"
 				}
@@ -136,7 +136,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 180.0, 105.0, 60.0, 22.0 ],
+					"patching_rect" : [ 180.0, 105.0, 55.0, 22.0 ],
 					"style" : "",
 					"text" : "tosymbol"
 				}
@@ -149,7 +149,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 180.0, 75.0, 72.0, 22.0 ],
+					"patching_rect" : [ 180.0, 75.0, 66.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend #1"
 				}
