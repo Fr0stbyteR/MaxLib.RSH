@@ -22,7 +22,7 @@ function read(filename) {
 	mostTags = [];
 	umenuTags = [];
 	choosedTags = [];
-	dumpTagList(10);
+	dumpTagList(20);
 }
 
 function write(filename) {
@@ -46,7 +46,7 @@ function setpath(pathIn) {
 	if (pathIn.slice(-1) != "/") pathIn += "/";
 	path = pathIn;
 	searchPath(pathIn);
-	dumpTagList(10);
+	dumpTagList(20);
 	uFiles = p.getnamed(pname + "_SoundDB_Files");
 	uFiles.message("clear");
 }
@@ -79,12 +79,12 @@ function cleanArray(arr) {
 	var i = arr.length;
 	while (i--) {
 		var tag = arr[i];
-		if (tag.match(/^[VX]?\d{1,2}$/) != null
+		if (tag.match(/^[VX]?\d{1,2}$/) != null //not match 1 2 or V1 X1...
  				|| tag.match(/wav|WAV|aif|AIF|aiff|AIFF/) != null) {
 			arr.splice(i, 1);
 			continue;
 		}
-		arr[i] = tag.replace(/X$/, "");
+		arr[i] = tag.replace(/([^F])X$/, "$1"); // let SomethingX in the same class of Something (except FX, SFX)
 		if (arr[i].length == 0) {
 			arr.splice(i, 1);
 			continue;
@@ -170,6 +170,13 @@ function settags() {
 	uFiles = p.getnamed(pname + "_SoundDB_Files");
 	uFiles.message("clear");
 	choosed = [];
+	if (choosedTags.length == 0) {
+		for (var i = 0; i < files.filelist.length; i++) {
+			uFiles.message("append", files.filelist[i][0]);
+			choosed.push(i);
+		}
+		return;
+	}
 	for (var i = 0; i < files.filelist.length; i++) {
 		var flag = 1;
 		for (var j = 0; j < choosedTags.length; j++) {

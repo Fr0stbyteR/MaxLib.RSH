@@ -1156,7 +1156,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u049007018"
+					"varname" : "u953001534"
 				}
 
 			}
@@ -1243,7 +1243,6 @@
 			}
 , 			{
 				"box" : 				{
-					"activeneedlecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : 0,
 					"fontname" : "Lato",
 					"id" : "obj-30",
@@ -1266,7 +1265,6 @@
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 8 ],
 							"parameter_unitstyle" : 0,
-							"parameter_units" : "Bits",
 							"parameter_exponent" : 2.0
 						}
 
@@ -3030,8 +3028,8 @@
  ],
 		"parameters" : 		{
 			"obj-47" : [ "PreGain", "PreGain", 0 ],
-			"obj-3" : [ "SR", "SR", 0 ],
 			"obj-30" : [ "Bits", "Bits", 0 ],
+			"obj-3" : [ "SR", "SR", 0 ],
 			"obj-93" : [ "Gain", "Gain", 0 ]
 		}
 ,

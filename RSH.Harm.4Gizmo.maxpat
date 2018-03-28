@@ -1852,7 +1852,7 @@
 					"outlettype" : [ "signal", "signal", "signal", "signal" ],
 					"patching_rect" : [ 75.0, 375.0, 203.0, 22.0 ],
 					"style" : "",
-					"text" : "pfft~ RSH.Harm.4Gizmo.Core 4096 8"
+					"text" : "pfft~ RSH.Harm.4Gizmo.Core 2048 8"
 				}
 
 			}
@@ -1955,7 +1955,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u259007143"
+					"varname" : "u831000504"
 				}
 
 			}
@@ -3492,11 +3492,11 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-82" : [ "H4", "H4", 0 ],
+			"obj-93" : [ "Gain", "Gain", 0 ],
 			"obj-3" : [ "H1", "H1", 0 ],
 			"obj-48" : [ "H2", "H2", 0 ],
 			"obj-91" : [ "H3", "H3", 0 ],
-			"obj-93" : [ "Gain", "Gain", 0 ]
+			"obj-82" : [ "H4", "H4", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{

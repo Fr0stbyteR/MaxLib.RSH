@@ -9,9 +9,9 @@
 			"modernui" : 1
 		}
 ,
+		"rect" : [ 25.0, 104.0, 1065.0, 507.0 ],
 		"bgcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 		"editing_bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-		"rect" : [ 8.0, 51.0, 1366.0, 685.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 11.0,
@@ -191,7 +191,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"outlettype" : [ "", "bang" ],
 					"patching_rect" : [ 1515.0, 195.0, 57.0, 22.0 ],
 					"style" : "",
 					"text" : "RSH.Line"
@@ -205,7 +205,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"outlettype" : [ "", "bang" ],
 					"patching_rect" : [ 1350.0, 195.0, 57.0, 22.0 ],
 					"style" : "",
 					"text" : "RSH.Line"
@@ -219,7 +219,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"outlettype" : [ "", "bang" ],
 					"patching_rect" : [ 1185.0, 195.0, 57.0, 22.0 ],
 					"style" : "",
 					"text" : "RSH.Line"
@@ -233,7 +233,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"outlettype" : [ "", "bang" ],
 					"patching_rect" : [ 1020.0, 195.0, 57.0, 22.0 ],
 					"style" : "",
 					"text" : "RSH.Line"
@@ -247,7 +247,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"outlettype" : [ "", "bang" ],
 					"patching_rect" : [ 855.0, 195.0, 57.0, 22.0 ],
 					"style" : "",
 					"text" : "RSH.Line"
@@ -261,7 +261,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"outlettype" : [ "", "bang" ],
 					"patching_rect" : [ 690.0, 195.0, 57.0, 22.0 ],
 					"style" : "",
 					"text" : "RSH.Line"
@@ -275,7 +275,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"outlettype" : [ "", "bang" ],
 					"patching_rect" : [ 525.0, 195.0, 57.0, 22.0 ],
 					"style" : "",
 					"text" : "RSH.Line"
@@ -329,7 +329,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u776005408"
+					"varname" : "u184001888"
 				}
 
 			}
@@ -761,7 +761,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 571.799988, 525.0, 36.0, 22.0 ],
+					"patching_rect" : [ 646.799988, 525.0, 36.0, 22.0 ],
 					"style" : "",
 					"text" : "*~ 1."
 				}
@@ -774,7 +774,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 532.799988, 525.0, 36.0, 22.0 ],
+					"patching_rect" : [ 592.799988, 525.0, 36.0, 22.0 ],
 					"style" : "",
 					"text" : "*~ 1."
 				}
@@ -787,7 +787,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 493.799988, 525.0, 36.0, 22.0 ],
+					"patching_rect" : [ 538.799988, 525.0, 36.0, 22.0 ],
 					"style" : "",
 					"text" : "*~ 1."
 				}
@@ -800,7 +800,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 454.799988, 525.0, 36.0, 22.0 ],
+					"patching_rect" : [ 484.799988, 525.0, 36.0, 22.0 ],
 					"style" : "",
 					"text" : "*~ 1."
 				}
@@ -813,7 +813,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 415.799988, 525.0, 36.0, 22.0 ],
+					"patching_rect" : [ 430.799988, 525.0, 36.0, 22.0 ],
 					"style" : "",
 					"text" : "*~ 1."
 				}
@@ -1078,7 +1078,7 @@
 					"numinlets" : 7,
 					"numoutlets" : 6,
 					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal" ],
-					"patching_rect" : [ 376.799988, 495.0, 303.0, 22.0 ],
+					"patching_rect" : [ 376.799988, 495.0, 289.0, 22.0 ],
 					"style" : "",
 					"text" : "RSH.Spat #1_Doppler @count 3 @outs 6 @speed 2000.",
 					"varname" : "Spat.Core"
@@ -2834,6 +2834,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-118", 0 ],
+					"source" : [ "obj-103", 5 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-119", 0 ],
+					"source" : [ "obj-103", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-109", 0 ],
 					"source" : [ "obj-106", 0 ]
 				}
@@ -3777,30 +3791,30 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-100" : [ "#1_Doppler_Gain", "Gain", 0 ],
-			"obj-103::obj-3" : [ "Count", "Count", 0 ],
-			"obj-103::obj-17" : [ "Speed[1]", "Speed", 0 ],
-			"obj-103::obj-39" : [ "Outs", "Outs", 0 ],
-			"obj-3" : [ "Thresh", "Thresh", 0 ],
-			"obj-76" : [ "Noise", "Noise", 0 ],
-			"obj-44" : [ "Perpendicular", "Perp", 0 ],
 			"obj-94" : [ "Trigger", "Trigger", 0 ],
+			"obj-34" : [ "Distance", "Distance", 0 ],
 			"obj-19" : [ "Speed", "Speed", 0 ],
-			"obj-103::obj-93" : [ "@count_Spat_Gain", "Gain", 0 ],
+			"obj-3" : [ "Thresh", "Thresh", 0 ],
 			"obj-107" : [ "Spat_Gain", "Spat", 0 ],
-			"obj-34" : [ "Distance", "Distance", 0 ]
+			"obj-103::obj-3" : [ "Count", "Count", 0 ],
+			"obj-103::obj-93" : [ "@count_Spat_Gain", "Gain", 0 ],
+			"obj-44" : [ "Perpendicular", "Perp", 0 ],
+			"obj-76" : [ "Noise", "Noise", 0 ],
+			"obj-103::obj-39" : [ "Outs", "Outs", 0 ],
+			"obj-100" : [ "#1_Doppler_Gain", "Gain", 0 ],
+			"obj-103::obj-17" : [ "Speed[1]", "Speed", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "RSH.MIDI.Learn.Cell.maxpat",
-				"bootpath" : "E:/Documents/CNSMD/MaxMSP/Library/Max.Patcher/dist",
+				"bootpath" : "F:/Documents/_MaxMSP/MaxLib.RSH",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RSH.Doppler.Core.maxpat",
-				"bootpath" : "E:/Documents/CNSMD/MaxMSP/Library/Max.Patcher/dist",
+				"bootpath" : "F:/Documents/_MaxMSP/MaxLib.RSH",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -3813,30 +3827,23 @@
 			}
 , 			{
 				"name" : "RSH.Spat.maxpat",
-				"bootpath" : "E:/Documents/CNSMD/MaxMSP/Library/Max.Patcher/dist",
+				"bootpath" : "F:/Documents/_MaxMSP/MaxLib.RSH",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RSH.Spat.Core.maxpat",
-				"bootpath" : "E:/Documents/CNSMD/MaxMSP/Library/Max.Patcher/dist",
+				"bootpath" : "F:/Documents/_MaxMSP/MaxLib.RSH",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RSH.Line.maxpat",
-				"bootpath" : "E:/Documents/CNSMD/MaxMSP/Library/Max.Patcher/dist",
+				"bootpath" : "F:/Documents/_MaxMSP/MaxLib.RSH",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "RSH.Line.js",
-				"bootpath" : "E:/Documents/CNSMD/MaxMSP/Library/Max.Patcher/dist",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
  ],

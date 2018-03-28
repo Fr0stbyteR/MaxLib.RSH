@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 8.0, 51.0, 939.0, 677.0 ],
+		"rect" : [ 38.0, 85.0, 939.0, 609.0 ],
 		"bgcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 		"editing_bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 		"bglocked" : 0,
@@ -39,6 +39,19 @@
 		"style" : "",
 		"subpatcher_template" : "default",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-99",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 240.0, 240.0, 33.0, 22.0 ],
+					"style" : "",
+					"text" : "- 50."
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-15",
 					"maxclass" : "newobj",
@@ -238,7 +251,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"outlettype" : [ "", "bang" ],
 					"patching_rect" : [ 840.0, 105.0, 55.0, 22.0 ],
 					"style" : "",
 					"text" : "RSH.Line"
@@ -519,7 +532,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"outlettype" : [ "", "bang" ],
 					"patching_rect" : [ 1500.0, 105.0, 57.0, 22.0 ],
 					"style" : "",
 					"text" : "RSH.Line"
@@ -794,7 +807,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 225.0, 0.0, 45.0, 20.0 ],
 					"style" : "",
-					"text" : "0",
+					"text" : "1",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 2
 				}
@@ -807,7 +820,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 315.0, 390.0, 156.0, 22.0 ],
+					"patching_rect" : [ 315.0, 390.0, 166.0, 22.0 ],
 					"style" : "",
 					"text" : "sprintf #1_Attacks.Buffers.%ld"
 				}
@@ -859,7 +872,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"outlettype" : [ "", "bang" ],
 					"patching_rect" : [ 1335.0, 105.0, 55.0, 22.0 ],
 					"style" : "",
 					"text" : "RSH.Line"
@@ -1080,7 +1093,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 495.0, 540.0, 162.0, 22.0 ],
+					"patching_rect" : [ 495.0, 540.0, 172.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0
 					}
@@ -1097,9 +1110,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 180.0, 301.0, 87.0, 22.0 ],
+					"patching_rect" : [ 180.0, 301.0, 90.0, 22.0 ],
 					"style" : "",
-					"text" : "0, 1 20 1 0 $1 1"
+					"text" : "0, 1 5 1 0 $1 0.5"
 				}
 
 			}
@@ -1149,7 +1162,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"outlettype" : [ "", "bang" ],
 					"patching_rect" : [ 1170.0, 105.0, 55.0, 22.0 ],
 					"style" : "",
 					"text" : "RSH.Line"
@@ -1176,7 +1189,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"outlettype" : [ "", "bang" ],
 					"patching_rect" : [ 1005.0, 105.0, 55.0, 22.0 ],
 					"style" : "",
 					"text" : "RSH.Line"
@@ -1382,11 +1395,11 @@
 					"id" : "obj-40",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 5,
-					"outlettype" : [ "int", "bang", "bang", "bang", "int" ],
-					"patching_rect" : [ 150.0, 240.0, 79.0, 22.0 ],
+					"numoutlets" : 6,
+					"outlettype" : [ "int", "bang", "bang", "bang", "int", "int" ],
+					"patching_rect" : [ 150.0, 240.0, 71.5, 22.0 ],
 					"style" : "",
-					"text" : "t 1 b b b 0"
+					"text" : "t 1 b b b 1 0"
 				}
 
 			}
@@ -1729,7 +1742,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 15.0, 390.0, 172.0, 22.0 ],
 					"style" : "",
-					"text" : "record~ #1_Attacks.Buffers.1 2 "
+					"text" : "record~ #1_Attacks.Buffers.1 2  "
 				}
 
 			}
@@ -2178,7 +2191,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 675.0, 345.0, 177.0, 22.0 ],
+					"patching_rect" : [ 675.0, 345.0, 187.0, 22.0 ],
 					"style" : "",
 					"text" : "RSH.MIDI.Learn.Cell #1_Attacks.In"
 				}
@@ -2386,7 +2399,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"outlettype" : [ "", "bang" ],
 					"patching_rect" : [ 675.0, 105.0, 55.0, 22.0 ],
 					"style" : "",
 					"text" : "RSH.Line"
@@ -2441,18 +2454,18 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 15.0, 570.0, 60.0, 22.0 ],
 					"restore" : 					{
-						"#1_Attacks_Clear" : [ -1 ],
-						"#1_Attacks_Count" : [ 1.0 ],
-						"#1_Attacks_Curve" : [ 0.5 ],
-						"#1_Attacks_PreGain" : [ 0.0 ],
-						"#1_Attacks_Size" : [ 200.0 ],
-						"#1_Attacks_Speedlim" : [ 500.0 ],
-						"#1_Attacks_Thresh" : [ -6.0 ]
+						"Main_Attacks_Clear" : [ -1 ],
+						"Main_Attacks_Count" : [ 1.0 ],
+						"Main_Attacks_Curve" : [ 0.5 ],
+						"Main_Attacks_PreGain" : [ -70.0 ],
+						"Main_Attacks_Size" : [ 289.762329 ],
+						"Main_Attacks_Speedlim" : [ 500.0 ],
+						"Main_Attacks_Thresh" : [ -21.611004 ]
 					}
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u135009356"
+					"varname" : "u273024300"
 				}
 
 			}
@@ -2460,7 +2473,7 @@
 				"box" : 				{
 					"comment" : "l [Parameters]",
 					"id" : "obj-32",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2530,7 +2543,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 675.0, 45.0, 83.0, 22.0 ],
+					"patching_rect" : [ 675.0, 45.0, 93.0, 22.0 ],
 					"style" : "",
 					"text" : "r #1_Attacks.In"
 				}
@@ -2568,7 +2581,7 @@
 				"box" : 				{
 					"comment" : "l [DumpOut]",
 					"id" : "obj-13",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2581,11 +2594,11 @@
 				"box" : 				{
 					"comment" : "a [In2]",
 					"id" : "obj-12",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 232.0, 135.0, 25.0, 25.0 ],
 					"style" : ""
 				}
@@ -2595,11 +2608,11 @@
 				"box" : 				{
 					"comment" : "a [In1]",
 					"id" : "obj-11",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 52.0, 135.0, 25.0, 25.0 ],
 					"style" : ""
 				}
@@ -2663,10 +2676,10 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 225.0, 20.0 ],
 					"style" : "",
-					"text" : "Attacks #1",
+					"text" : "Attacks Main",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 0,
-					"texton" : "Attacks #1",
+					"texton" : "Attacks Main",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 1.0, 1.0, 0.0, 1.0 ],
 					"usebgoncolor" : 1,
@@ -2843,7 +2856,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "#1_Attacks_PreGain",
+							"parameter_longname" : "Main_Attacks_PreGain",
 							"parameter_shortname" : "Gain",
 							"parameter_type" : 0,
 							"parameter_mmin" : -70.0,
@@ -3180,14 +3193,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-21", 3 ],
-					"order" : 3,
-					"source" : [ "obj-26", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-29", 0 ],
 					"order" : 0,
 					"source" : [ "obj-26", 0 ]
@@ -3196,7 +3201,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-34", 1 ],
+					"destination" : [ "obj-99", 0 ],
 					"order" : 2,
 					"source" : [ "obj-26", 0 ]
 				}
@@ -3379,7 +3384,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
-					"source" : [ "obj-40", 0 ]
+					"source" : [ "obj-40", 4 ]
 				}
 
 			}
@@ -3393,7 +3398,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-35", 0 ],
-					"source" : [ "obj-40", 4 ]
+					"source" : [ "obj-40", 5 ]
 				}
 
 			}
@@ -3946,39 +3951,14 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-80" : [ "Speedlim", "Speedlim", 0 ],
-			"obj-75" : [ "#1_Attacks_PreGain", "Gain", 0 ],
-			"obj-26" : [ "Size", "Size", 0 ],
-			"obj-3" : [ "Threshold", "Thresh", 0 ],
-			"obj-54" : [ "Count", "Count", 0 ],
-			"obj-28" : [ "Curve", "Curve", 0 ]
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "RSH.Line.maxpat",
-				"bootpath" : "F:/Documents/_MaxMSP/MaxLib.RSH",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
 , 			{
-				"name" : "RSH.Line.js",
-				"bootpath" : "F:/Documents/_MaxMSP/MaxLib.RSH",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "RSH.MIDI.Learn.Cell.maxpat",
-				"bootpath" : "F:/Documents/_MaxMSP/MaxLib.RSH",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
+				"patchline" : 				{
+					"destination" : [ "obj-34", 1 ],
+					"source" : [ "obj-99", 0 ]
+				}
+
 			}
  ],
-		"autosave" : 0,
 		"bgfillcolor_type" : "gradient",
 		"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
 		"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
