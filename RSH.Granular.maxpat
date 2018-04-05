@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 237.0, 111.0, 1018.0, 688.0 ],
+		"rect" : [ 760.0, 244.0, 317.0, 281.0 ],
 		"bgcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 		"editing_bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 		"bglocked" : 0,
@@ -39,6 +39,20 @@
 		"style" : "",
 		"subpatcher_template" : "default",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-31",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 525.0, 195.0, 41.0, 22.0 ],
+					"presentation_rect" : [ 585.0, 180.0, 42.0, 22.0 ],
+					"style" : "",
+					"text" : "set $1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
 					"fontname" : "Lato",
@@ -1225,7 +1239,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 570.0, 165.0, 42.0, 22.0 ],
+					"patching_rect" : [ 570.0, 165.0, 41.0, 22.0 ],
 					"presentation_rect" : [ 570.0, 165.0, 42.0, 22.0 ],
 					"style" : "",
 					"text" : "set $1"
@@ -1925,7 +1939,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u039002816"
+					"varname" : "u637004996"
 				}
 
 			}
@@ -2001,6 +2015,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"fontname" : "Lato",
 					"id" : "obj-37",
 					"maxclass" : "live.dial",
@@ -2374,6 +2389,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"fontname" : "Lato",
 					"id" : "obj-36",
 					"maxclass" : "live.dial",
@@ -2760,6 +2776,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"fontname" : "Lato",
 					"id" : "obj-90",
 					"maxclass" : "live.dial",
@@ -3132,6 +3149,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"fontname" : "Lato",
 					"id" : "obj-78",
 					"maxclass" : "live.dial",
@@ -3504,6 +3522,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"fontname" : "Lato",
 					"id" : "obj-63",
 					"maxclass" : "live.dial",
@@ -4265,6 +4284,7 @@
 				"box" : 				{
 					"clip_size" : 1,
 					"display_range" : [ -70.0, 30.0 ],
+					"fontface" : 0,
 					"fontname" : "Lato",
 					"fontsize" : 9.0,
 					"id" : "obj-93",
@@ -4427,6 +4447,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"fontname" : "Lato",
 					"id" : "obj-3",
 					"maxclass" : "live.dial",
@@ -5092,6 +5113,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"source" : [ "obj-31", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
 					"source" : [ "obj-32", 0 ]
 				}
@@ -5308,16 +5336,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-26", 0 ],
-					"order" : 0,
-					"source" : [ "obj-53", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-49", 0 ],
-					"order" : 1,
 					"source" : [ "obj-53", 0 ]
 				}
 
@@ -5654,15 +5673,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-32", 0 ],
-					"order" : 2,
+					"destination" : [ "obj-31", 0 ],
+					"order" : 1,
 					"source" : [ "obj-91", 3 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-33", 8 ],
+					"destination" : [ "obj-32", 0 ],
 					"order" : 3,
 					"source" : [ "obj-91", 3 ]
 				}
@@ -5670,8 +5689,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-33", 8 ],
+					"order" : 4,
+					"source" : [ "obj-91", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-39", 0 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-91", 3 ]
 				}
 
@@ -5791,14 +5818,14 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-29" : [ "Position", "Position", 0 ],
+			"obj-37" : [ "Transp", "Transp", 0 ],
+			"obj-3" : [ "WinSize", "WinSize", 0 ],
+			"obj-63" : [ "Size", "Size", 0 ],
+			"obj-90" : [ "Pan", "Pan", 0 ],
 			"obj-78" : [ "Detune", "Detune", 0 ],
 			"obj-36" : [ "Count", "Count", 0 ],
-			"obj-37" : [ "Transp", "Transp", 0 ],
-			"obj-93" : [ "Gain", "Gain", 0 ],
-			"obj-63" : [ "Size", "Size", 0 ],
-			"obj-3" : [ "WinSize", "WinSize", 0 ],
-			"obj-90" : [ "Pan", "Pan", 0 ],
-			"obj-29" : [ "Position", "Position", 0 ]
+			"obj-93" : [ "Gain", "Gain", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{

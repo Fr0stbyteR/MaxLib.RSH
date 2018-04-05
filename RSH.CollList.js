@@ -35,6 +35,7 @@ function gotocue(cueIn) {
 }
 
 function first() {
+	if (data.length == 0) return;
 	index = 0;
 	subIndex = 0;
 	infoMaxWindow(index);
@@ -43,6 +44,7 @@ function first() {
 }
 
 function last() {
+	if (data.length == 0) return;
 	index = data.length - 1;
 	subIndex = 0;
 	infoMaxWindow(index);
@@ -51,6 +53,7 @@ function last() {
 }
 
 function prev() {
+	if (data.length == 0) return;
 	if (index > 0) index--;
 	subIndex = 0;
 	infoMaxWindow(index);
@@ -59,6 +62,7 @@ function prev() {
 }
 
 function next() {
+	if (data.length == 0) return;
 	if (index < data.length - 1) index++;
 	subIndex = 0;
 	infoMaxWindow(index);
