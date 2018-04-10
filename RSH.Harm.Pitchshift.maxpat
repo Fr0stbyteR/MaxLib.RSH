@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
@@ -117,7 +117,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -700,9 +700,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 720.0, 105.0, 45.0, 48.0 ],
+					"patching_rect" : [ 720.0, 105.0, 45.0, 49.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 20.0, 45.0, 48.0 ],
+					"presentation_rect" : [ 0.0, 20.0, 45.0, 49.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
@@ -974,7 +974,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -1330,7 +1330,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -1660,7 +1660,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -2012,7 +2012,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 600.0, 15.0, 120.0, 20.0 ],
 					"style" : "",
-					"text" : "REN Shihong © 2017",
+					"text" : "REN Shihong © 2018",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -2088,7 +2088,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u889010674"
+					"varname" : "u328003943"
 				}
 
 			}
@@ -2345,9 +2345,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 540.0, 255.0, 45.0, 48.0 ],
+					"patching_rect" : [ 540.0, 255.0, 45.0, 49.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 137.0, 20.0, 45.0, 48.0 ],
+					"presentation_rect" : [ 137.0, 20.0, 45.0, 49.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
@@ -2379,9 +2379,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 990.0, 105.0, 45.0, 48.0 ],
+					"patching_rect" : [ 990.0, 105.0, 45.0, 49.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 70.0, 45.0, 48.0 ],
+					"presentation_rect" : [ 0.0, 70.0, 45.0, 49.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
@@ -3145,29 +3145,29 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-48" : [ "Range", "Range", 0 ],
 			"obj-3" : [ "Quality", "Quality", 0 ],
-			"obj-93" : [ "Gain", "Gain", 0 ],
-			"obj-40" : [ "Count", "Count", 0 ]
+			"obj-40" : [ "Count", "Count", 0 ],
+			"obj-48" : [ "Range", "Range", 0 ],
+			"obj-93" : [ "Gain", "Gain", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "RSH.Line.maxpat",
-				"bootpath" : "/Volumes/Data/Documents/_MaxMSP/MaxLib.RSH",
-				"patcherrelativepath" : "../Data/Documents/_MaxMSP/MaxLib.RSH",
+				"bootpath" : "F:/Documents/_MaxMSP/MaxLib.RSH",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RSH.MIDI.Learn.Cell.maxpat",
-				"bootpath" : "/Volumes/Data/Documents/_MaxMSP/MaxLib.RSH",
-				"patcherrelativepath" : "../Data/Documents/_MaxMSP/MaxLib.RSH",
+				"bootpath" : "F:/Documents/_MaxMSP/MaxLib.RSH",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RSH.Harm.Pitchshift.Core.maxpat",
-				"bootpath" : "/Volumes/Temp/",
+				"bootpath" : "F:/Documents/_MaxMSP/MaxLib.RSH",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 80.0, 68.0, 812.0, 575.0 ],
+		"rect" : [ 80.0, 68.0, 833.0, 484.0 ],
 		"bgcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 		"editing_bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 		"bglocked" : 0,
@@ -959,9 +959,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 45.0, 255.0, 213.0, 22.0 ],
+					"patching_rect" : [ 45.0, 255.0, 187.0, 22.0 ],
 					"style" : "",
-					"text" : "RSH.MIDI.Learn.Cell #1_Mlys.SVP.Trans.In"
+					"text" : "RSH.MIDI.Learn.Cell #1_SVP.Trans.In"
 				}
 
 			}
@@ -1275,9 +1275,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 810.0, 15.0, 120.0, 20.0 ],
+					"patching_rect" : [ 690.0, 15.0, 120.0, 20.0 ],
 					"style" : "",
-					"text" : "REN Shihong © 2017",
+					"text" : "REN Shihong © 2018",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -1351,7 +1351,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u335003905"
+					"varname" : "u804003650"
 				}
 
 			}
@@ -1992,19 +1992,21 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-93" : [ "Gain", "Gain", 0 ],
-			"obj-3" : [ "Pitch", "Pitch", 0 ]
+			"obj-3" : [ "Pitch", "Pitch", 0 ],
+			"obj-93" : [ "Gain", "Gain", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "RSH.Line.maxpat",
 				"bootpath" : "F:/Documents/_MaxMSP/MaxLib.RSH",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RSH.MIDI.Learn.Cell.maxpat",
 				"bootpath" : "F:/Documents/_MaxMSP/MaxLib.RSH",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
