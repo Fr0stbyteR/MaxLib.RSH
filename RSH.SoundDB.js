@@ -224,6 +224,7 @@ function get(i) {
 function getall() {
 	var count = choosed.length;
 	if (count == 0) return;
+	outlet(0, "allfiles");
 	for (var i = 0; i < choosed.length; i++) {
 		outlet(0, "file", files.filelist[choosed[i]][1]);
 	}

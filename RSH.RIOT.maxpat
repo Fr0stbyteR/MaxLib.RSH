@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 579.0, 340.0, 1085.0, 538.0 ],
+		"rect" : [ 292.0, 196.0, 1085.0, 538.0 ],
 		"bgcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 		"editing_bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 		"bglocked" : 0,
@@ -605,6 +605,32 @@
 						"subpatcher_template" : "default",
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "float", "float" ],
+									"patching_rect" : [ 300.0, 105.0, 69.0, 22.0 ],
+									"style" : "",
+									"text" : "unpack 0. 0."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 300.0, 75.0, 101.0, 22.0 ],
+									"style" : "",
+									"text" : "patcherargs 1. 100"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-41",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -748,7 +774,7 @@
 							}
 , 							{
 								"box" : 								{
-									"comment" : "a [In2]",
+									"comment" : "f [thresh]",
 									"id" : "obj-49",
 									"index" : 2,
 									"maxclass" : "inlet",
@@ -762,7 +788,7 @@
 							}
 , 							{
 								"box" : 								{
-									"comment" : "a [In2]",
+									"comment" : "f [In1]",
 									"id" : "obj-51",
 									"index" : 1,
 									"maxclass" : "inlet",
@@ -776,7 +802,7 @@
 							}
 , 							{
 								"box" : 								{
-									"comment" : "a [In2]",
+									"comment" : "f [time_limit]",
 									"id" : "obj-52",
 									"index" : 3,
 									"maxclass" : "inlet",
@@ -804,6 +830,13 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-15", 0 ],
 									"source" : [ "obj-13", 0 ]
 								}
@@ -827,6 +860,29 @@
 								"patchline" : 								{
 									"destination" : [ "obj-39", 0 ],
 									"source" : [ "obj-17", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-15", 1 ],
+									"order" : 1,
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-29", 0 ],
+									"order" : 0,
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-40", 1 ],
+									"source" : [ "obj-2", 1 ]
 								}
 
 							}
@@ -2422,7 +2478,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u109004276"
+					"varname" : "u769004472"
 				}
 
 			}
@@ -3202,14 +3258,14 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-29" : [ "Controller", "Controller", 0 ],
+			"obj-95" : [ "TrigThresh", "TrigThresh", 0 ],
 			"obj-93" : [ "Filter", "Filter", 0 ],
 			"obj-87" : [ "Port", "Port", 0 ],
 			"obj-94" : [ "Smooth", "Smooth", 0 ],
-			"obj-96" : [ "TrigLimit", "TrigLimit", 0 ],
-			"obj-89" : [ "ID", "ID", 0 ],
-			"obj-29" : [ "Controller", "Controller", 0 ],
 			"obj-23" : [ "Calibrate", "Calibrate", 0 ],
-			"obj-95" : [ "TrigThresh", "TrigThresh", 0 ]
+			"obj-96" : [ "TrigLimit", "TrigLimit", 0 ],
+			"obj-89" : [ "ID", "ID", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{

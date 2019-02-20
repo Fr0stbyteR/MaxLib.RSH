@@ -12,7 +12,6 @@ function list() {
 	if (width >= 240 && height <= 30) mode = 0; //horiz
 	else if (width < 240 && height > 30) mode = 1; //vertic
 	else if (width < 240 && height <= 30) mode = 2 //min
-	if (mode == lastmode) return;
 	else lastmode = mode;
 
 	var uRecall = p.getnamed(pname + "_Pattr_MenuRecall");

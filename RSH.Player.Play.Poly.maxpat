@@ -74,7 +74,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 495.0, 105.0, 30.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 150.0, 0.0, 60.0, 20.0 ],
+					"presentation_rect" : [ 120.0, 0.0, 90.0, 20.0 ],
 					"style" : "",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -599,7 +599,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 120.0, 135.0, 45.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 120.0, 20.0 ],
 					"style" : "",
 					"text" : "",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
@@ -1076,7 +1076,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u428003512"
+					"varname" : "u709001346"
 				}
 
 			}
@@ -1267,7 +1267,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 15.0, 135.0, 60.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 120.0, 20.0 ],
 					"style" : "",
 					"text" : "Player.Play.Poly #1",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],

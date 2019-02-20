@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -39,6 +39,20 @@
 		"style" : "",
 		"subpatcher_template" : "default",
 		"boxes" : [ 			{
+				"box" : 				{
+					"color" : [ 1.0, 1.0, 0.0, 1.0 ],
+					"id" : "obj-20",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 510.0, 45.0, 32.0, 22.0 ],
+					"style" : "",
+					"text" : "r ___"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-60",
 					"maxclass" : "message",
@@ -129,7 +143,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -374,7 +388,7 @@
 					"textovercolor" : [ 1.0, 1.0, 0.0, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1,
-					"varname" : "#1_MIDI_Wrap_GM_Reset"
+					"varname" : "Reset"
 				}
 
 			}
@@ -725,7 +739,7 @@
 					}
 ,
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"varname" : "#1_MIDI_GM_Config_Bend"
+					"varname" : "Bend"
 				}
 
 			}
@@ -755,7 +769,7 @@
 					}
 ,
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"varname" : "#1_MIDI_GM_Config_Contol"
+					"varname" : "ContollerVal"
 				}
 
 			}
@@ -826,7 +840,7 @@
 					"prototypename" : "blackYahei11",
 					"style" : "",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"varname" : "#1_MIDI_GM_Config_Pgm"
+					"varname" : "Program"
 				}
 
 			}
@@ -871,7 +885,7 @@
 					"prototypename" : "blackYahei11",
 					"style" : "",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"varname" : "#1_MIDI_GM_Config_CtlNo"
+					"varname" : "ControllerNo"
 				}
 
 			}
@@ -951,17 +965,17 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 75.0, 690.0, 56.0, 22.0 ],
 					"restore" : 					{
-						"#1_MIDI_GM_Config_Bend" : [ 64.0 ],
-						"#1_MIDI_GM_Config_Chan" : [ 1.0 ],
-						"#1_MIDI_GM_Config_Contol" : [ 64.0 ],
-						"#1_MIDI_GM_Config_CtlNo" : [ 10 ],
-						"#1_MIDI_GM_Config_Pgm" : [ 0 ],
-						"#1_MIDI_Wrap_GM_Reset" : [ -1 ]
+						"Bend" : [ 64.0 ],
+						"Channel" : [ 1.0 ],
+						"ContollerVal" : [ 64.0 ],
+						"ControllerNo" : [ 10 ],
+						"Program" : [ 0 ],
+						"Reset" : [ -1 ]
 					}
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u938006202"
+					"varname" : "u064013221"
 				}
 
 			}
@@ -1115,7 +1129,7 @@
 					}
 ,
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"varname" : "#1_MIDI_GM_Config_Chan"
+					"varname" : "Channel"
 				}
 
 			}
@@ -1253,6 +1267,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
 					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-20", 0 ]
 				}
 
 			}
@@ -1743,9 +1764,9 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-48" : [ "Control", "Control", 0 ],
+			"obj-55" : [ "Bend", "Bend", 0 ],
 			"obj-3" : [ "Channel", "Channel", 0 ],
-			"obj-55" : [ "Bend", "Bend", 0 ]
+			"obj-48" : [ "Control", "Control", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

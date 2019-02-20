@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 327.0, 110.0, 588.0, 579.0 ],
+		"rect" : [ -8.0, 172.0, 1234.0, 564.0 ],
 		"bgcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 		"editing_bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 		"bglocked" : 0,
@@ -295,7 +295,7 @@
 					"bgfillcolor_type" : "color",
 					"hint" : "Selected Cue",
 					"id" : "obj-21",
-					"items" : [ "0 Init.MIDI", ",", "10 #1", ",", "999 Stop", ",", "9999 EOF" ],
+					"items" : [ "0 Init", ",", "1 Init", ",", "3 snz.1", ",", "16 snz.2", ",", "28 snz.3", ",", "40 snz.4", ",", "54 snz.5", ",", "73 snz.6", ",", "88 snz.7", ",", "94 snz.8", ",", "97 snz.9", ",", "98 snz.10", ",", "100 snz.11", ",", "103 snz.12", ",", "113 snz.13", ",", "144 snz.14", ",", "150 snz.15", ",", "180 snz.16", ",", "192 snz.17", ",", "203 snz.18", ",", "1999 stop", ",", "9999 EOF" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -646,7 +646,7 @@
 					"bgfillcolor_type" : "color",
 					"fontsize" : 10.0,
 					"id" : "obj-136",
-					"items" : [ "Microsoft Synthesizer", ",", "Microsoft GS Wavetable Synth" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1655,6 +1655,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"midpoints" : [ 1074.5, 310.5, 114.5, 310.5 ],
+					"source" : [ "obj-11", 11 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-112", 0 ],
 					"source" : [ "obj-11", 5 ]
 				}
@@ -2539,7 +2547,8 @@
 			}
 , 			{
 				"name" : "CollList.txt",
-				"bootpath" : "E:/projets/2/patch",
+				"bootpath" : "F:/Documents/_Music/170527_Mengneng/SuoNanZhi",
+				"patcherrelativepath" : "../../_Music/170527_Mengneng/SuoNanZhi",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
